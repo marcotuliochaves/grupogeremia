@@ -1,0 +1,62 @@
+{
+  "agua_sem_gas": {
+    "titulo": "Still water",
+    "descricao": ""
+  },
+  "agua_com_gas": {
+    "titulo": "Sparkling water",
+    "descricao": ""
+  },
+  "coca_cola": {
+    "titulo": "Coke",
+    "descricao": ""
+  },
+  "coca_cola_zero": {
+    "titulo": "Zero coke",
+    "descricao": ""
+  },
+  "sprite": {
+    "titulo": "Sprite",
+    "descricao": ""
+  },
+  "schweppes_citrus": {
+    "titulo": "Schweppes Citrus",
+    "descricao": ""
+  },
+  "guarana_antartica": {
+    "titulo": "Guaraná Antártica",
+    "descricao": ""
+  },
+  "guarana_antartica_zero": {
+    "titulo": "Zero Guaraná Antártica",
+    "descricao": ""
+  },
+  "tonica": {
+    "titulo": "Tonic water",
+    "descricao": ""
+  },
+  "h2o_limao_ou_limoneto": {
+    "titulo": "H20!",
+    "descricao": ""
+  },
+  "red_bull": {
+    "titulo": "Red Bull",
+    "descricao": ""
+  },
+  "agua_de_coco": {
+    "titulo": "Coconut water",
+    "descricao": ""
+  },
+  "ura_sem_alcool": {
+    "titulo": "Ura – Non-alcoholic",
+    "descricao": "A non-alcoholic drink made with pineapple, strawberry syrup, and sparkling water."
+  },
+  "soda_italiana_sem_alcool": {
+    "titulo": "Italian Soda – Non-alcoholic",
+    "descricao": "A non-alcoholic drink made with fruit syrup, lime juice, and sparkling water. Flavors available: Strawberry, Tangerine, or Green Apple."
+  },
+  "heineken_zero_alcool": {
+    "titulo": "Heineken 0.0",
+    "descricao": ""
+  }
+}

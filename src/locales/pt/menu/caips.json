@@ -1,0 +1,50 @@
+{
+  "caipi_gere": {
+    "titulo": "Caipi Gerê",
+    "descricao": "Xarope de rapadura, limão taiti."
+  },
+  "gere_tropical": {
+    "titulo": "Gerê tropical",
+    "descricao": "Nosso Geremia tropical, é uma bebida refrescante com dose de gin Beefeater, maracujá e energético Red Bull tropical."
+  },
+  "caraiva": {
+    "titulo": "Caraíva",
+    "descricao": "Drink com morango, maracujá e tangerina."
+  },
+  "negroni": {
+    "titulo": "Negroni",
+    "descricao": "O clássico Negroni que dispensa comentários."
+  },
+  "moscow_mule": {
+    "titulo": "Moscow Mule",
+    "descricao": "Vodka, espuma e xarope de gengibre e limão."
+  },
+  "gin_tonica_com_morango": {
+    "titulo": "Gin tonica com morango",
+    "descricao": ""
+  },
+  "sicilian_bee": {
+    "titulo": "Sicilian bee",
+    "descricao": "Gin, tonica, limão siciliano e mel."
+  },
+  "caip_seleta": {
+    "titulo": "Caip Seleta",
+    "descricao": ""
+  },
+  "caipirinha": {
+    "titulo": "Caipirinha",
+    "descricao": ""
+  },
+  "caiproska": {
+    "titulo": "Caiproska",
+    "descricao": ""
+  },
+  "caip_absolut": {
+    "titulo": "Caip Absolut",
+    "descricao": ""
+  },
+  "caip_saque": {
+    "titulo": "Caip Saquê",
+    "descricao": ""
+  }
+}

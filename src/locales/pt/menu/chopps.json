@@ -1,0 +1,22 @@
+{
+  "chopp_heineken": {
+    "titulo": "Chopp Heineken",
+    "descricao": ""
+  },
+  "chopp_antarctica": {
+    "titulo": "Chopp Antarctica",
+    "descricao": "Chopp fresco, aroma neutro. Para quem prefere chopp com teor de amargor menos acentuado."
+  },
+  "chopp_brahma_black": {
+    "titulo": "Chopp Brahma Black",
+    "descricao": "Cremoso e surpreendente. A escolha certa para quem gosta de bebidas marcantes."
+  },
+  "chopp_ferrugem": {
+    "titulo": "Chopp Ferrugem",
+    "descricao": "Grande novidade! Chopp Antarctica, com 3 dedos de creme black na tulipa Gerê."
+  },
+  "chopp_amstel": {
+    "titulo": "Chopp Amstel",
+    "descricao": ""
+  }
+}

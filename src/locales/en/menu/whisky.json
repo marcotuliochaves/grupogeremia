@@ -1,0 +1,22 @@
+{
+  "old_parr": {
+    "titulo": "Old Parr",
+    "descricao": "12 years"
+  },
+  "chivas": {
+    "titulo": "Chivas",
+    "descricao": "12 years"
+  },
+  "black_label": {
+    "titulo": "Johnnie Walker Black Label",
+    "descricao": "12 years"
+  },
+  "jack_daniels": {
+    "titulo": "Jack Daniel's",
+    "descricao": "8 years"
+  },
+  "red_label": {
+    "titulo": "Johnnie Walker Red Label",
+    "descricao": "8 years"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "absolut": {
+    "titulo": "Absolut vodka",
+    "descricao": ""
+  },
+  "orloff": {
+    "titulo": "Orloff Vodka",
+    "descricao": ""
+  },
+  "campari": {
+    "titulo": "Campari",
+    "descricao": ""
+  },
+  "gin_nacional": {
+    "titulo": "Brazilian Gin",
+    "descricao": ""
+  },
+  "gin_beefeater": {
+    "titulo": "Gin Beefeater",
+    "descricao": "Imported Gin"
+  },
+  "tequila_jose_cuervo": {
+    "titulo": "Tequila José Cuervo",
+    "descricao": ""
+  },
+  "licor_43": {
+    "titulo": "43 liquor",
+    "descricao": "Cuarenta y tres"
+  },
+  "licor_jagermeister": {
+    "titulo": "Licor Jagermeister",
+    "descricao": ""
+  },
+  "amarula": {
+    "titulo": "Amarula",
+    "descricao": ""
+  }
+}

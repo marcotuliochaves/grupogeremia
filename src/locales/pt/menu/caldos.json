@@ -1,0 +1,18 @@
+{
+  "caldinho_de_feijao": {
+    "titulo": "Caldinho de feijão",
+    "descricao": "Acompanha pão francês, muçarela e cebolinha."
+  },
+  "caldinho_de_frango": {
+    "titulo": "Caldinho de frango",
+    "descricao": "Acompanha pão francês, muçarela e cebolinha."
+  },
+  "caldinho_de_costela": {
+    "titulo": "Caldinho de costela",
+    "descricao": "Acompanha pão francês, muçarela e cebolinha."
+  },
+  "caldinho_de_alho_poro": {
+    "titulo": "Caldinho de alho poró",
+    "descricao": "Acompanha pão francês, muçarela e cebolinha."
+  }
+}

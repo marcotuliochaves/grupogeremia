@@ -1,0 +1,22 @@
+{
+  "chopp_heineken": {
+    "titulo": "Heineken",
+    "descricao": ""
+  },
+  "chopp_antarctica": {
+    "titulo": "Antarctica",
+    "descricao": ""
+  },
+  "chopp_brahma_black": {
+    "titulo": "Brahma Black Beer",
+    "descricao": ""
+  },
+  "chopp_ferrugem": {
+    "titulo": "Rust",
+    "descricao": "Antarctica beer with three fingers of black beer."
+  },
+  "chopp_amstel": {
+    "titulo": "Amstel",
+    "descricao": ""
+  }
+}

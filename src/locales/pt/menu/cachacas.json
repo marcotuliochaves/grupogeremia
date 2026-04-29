@@ -1,0 +1,22 @@
+{
+  "cachaca_geremia_ouro": {
+    "titulo": "Cachaça Geremia Ouro",
+    "descricao": ""
+  },
+  "cachaca_geremia_prata": {
+    "titulo": "Cachaça Geremia Prata",
+    "descricao": ""
+  },
+  "terras_de_kubera_ouro": {
+    "titulo": "Terras de Kubera Ouro",
+    "descricao": "Blended cachaça Bertholletia Ouro"
+  },
+  "mata_velha": {
+    "titulo": "Mata Velha",
+    "descricao": ""
+  },
+  "seleta": {
+    "titulo": "Seleta",
+    "descricao": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Comidas": "Food",
+  "Bebidas": "Drinks",
+  "Souvenir": "Souvenirs",
+
+  "Porções": "Appetizers",
+  "Pratos": "Main Dishes",
+  "Para Acompanhar": "Sides",
+  "Saladinha": "Salads",
+  "Vegetarianos": "Vegetarian",
+  "Sandubão": "Sandwiches",
+  "Caldinhos": "Soups",
+  "Sobremesas": "Desserts",
+
+  "Chopps": "Draft Beer",
+  "Cervejas 600ML": "600ml Beers",
+  "Long Necks": "Long Necks",
+  "Drinks": "Cocktails",
+  "Caips": "Caipirinhas",
+  "Sucos": "Juices",
+  "Bebidas sem álcool": "Non-alcoholic",
+  "Cachaças (Dose)": "Cachaça (Shot)",
+  "Vinhos": "Wines",
+  "Destilados (Dose)": "Spirits (Shot)",
+  "Destilados (Garrafas)": "Spirits (Bottle)",
+  "Whiskys (Dose)": "Whisky (Shot)",
+  "Whiskys (Garrafas)": "Whisky (Bottle)",
+  "Growler": "Growler"
+}

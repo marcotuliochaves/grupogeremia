@@ -1,0 +1,22 @@
+{
+  "pudim_de_leite_condensado": {
+    "titulo": "Pudim de leite condensado",
+    "descricao": ""
+  },
+  "petit_gateau": {
+    "titulo": "Petit gateau",
+    "descricao": ""
+  },
+  "sorvete_de_creme": {
+    "titulo": "Sorvete de creme",
+    "descricao": "1 bola."
+  },
+  "cafezinho_expresso": {
+    "titulo": "Cafezinho expresso",
+    "descricao": ""
+  },
+  "cafezinho_expresso_descafeinado": {
+    "titulo": "Cafezinho expresso descafeinado",
+    "descricao": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cachaca_geremia_ouro": {
+    "titulo": "Geremia Gold Cachaça",
+    "descricao": "Special aged bottle"
+  },
+  "cachaca_geremia_prata": {
+    "titulo": "Geremia Silver Cachaça",
+    "descricao": "Classic house version"
+  },
+  "tulipa_geremia": {
+    "titulo": "Geremia Glass",
+    "descricao": "Custom glass"
+  }
+}

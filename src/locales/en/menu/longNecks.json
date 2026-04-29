@@ -1,0 +1,26 @@
+{
+  "amstel_ultra_sem_gluten": {
+    "titulo": "Amstel Ultra - gluten free",
+    "descricao": ""
+  },
+  "blue_moon": {
+    "titulo": "Blue Moon",
+    "descricao": ""
+  },
+  "stella_artois_pure_gold": {
+    "titulo": "Stella Artois Pure Gold",
+    "descricao": "Gluten Free"
+  },
+  "heineken_330ml": {
+    "titulo": "Heineken 330 ml",
+    "descricao": ""
+  },
+  "corona_330ml": {
+    "titulo": "Corona 330 ml",
+    "descricao": ""
+  },
+  "heineken_zero_alcool": {
+    "titulo": "Heineken 0.0",
+    "descricao": ""
+  }
+}

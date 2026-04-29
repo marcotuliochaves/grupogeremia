@@ -1,0 +1,34 @@
+{
+  "espaguete_de_abobrinha": {
+    "titulo": "Espaguete de abobrinha",
+    "descricao": "Ao molho de tomate rústico acompanhado de queijo parmesão."
+  },
+  "saladinha_de_jilo": {
+    "titulo": "Saladinha de jiló",
+    "descricao": "Jiló marinado."
+  },
+  "cenourinha_a_palito": {
+    "titulo": "Cenourinha a palito",
+    "descricao": ""
+  },
+  "tomate_com_queijo_mucarela": {
+    "titulo": "Tomate com queijo muçarela",
+    "descricao": ""
+  },
+  "tomate_com_palmito": {
+    "titulo": "Tomate com palmito",
+    "descricao": ""
+  },
+  "salada_da_casa": {
+    "titulo": "Salada da casa",
+    "descricao": "Salada de alface, rúcula, tomate, queijo parmesão e palmito."
+  },
+  "omelete": {
+    "titulo": "Omelete",
+    "descricao": "Omelete recheado com queijo e cebola."
+  },
+  "pipoca_de_queijo_coalho": {
+    "titulo": "Pipoca de queijo coalho",
+    "descricao": "O famoso dadinho de tapioca com dip (molho) de goiaba com pimenta."
+  }
+}

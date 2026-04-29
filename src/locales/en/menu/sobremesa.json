@@ -1,0 +1,22 @@
+{
+  "pudim_de_leite_condensado": {
+    "titulo": "Pudding",
+    "descricao": "Condensed milk pudding topped with caramel syrup"
+  },
+  "petit_gateau": {
+    "titulo": "Petit Gateau",
+    "descricao": ""
+  },
+  "sorvete_de_creme": {
+    "titulo": "Vanilla Ice cream",
+    "descricao": ""
+  },
+  "cafezinho_expresso": {
+    "titulo": "Espresso",
+    "descricao": ""
+  },
+  "cafezinho_expresso_descafeinado": {
+    "titulo": "Espresso caffeine free",
+    "descricao": ""
+  }
+}

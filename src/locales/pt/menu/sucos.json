@@ -1,0 +1,58 @@
+{
+  "laranja": {
+    "titulo": "Laranja",
+    "descricao": ""
+  },
+  "limao": {
+    "titulo": "Limão",
+    "descricao": ""
+  },
+  "abacaxi": {
+    "titulo": "Abacaxi",
+    "descricao": ""
+  },
+  "acerola": {
+    "titulo": "Acerola",
+    "descricao": ""
+  },
+  "maracuja": {
+    "titulo": "Maracujá",
+    "descricao": ""
+  },
+  "morango": {
+    "titulo": "Morango",
+    "descricao": ""
+  },
+  "abacaxi_com_hortela": {
+    "titulo": "Abacaxi com hortelã",
+    "descricao": ""
+  },
+  "laranja_com_acerola": {
+    "titulo": "Laranja com acerola",
+    "descricao": ""
+  },
+  "laranja_com_morango": {
+    "titulo": "Laranja com morango",
+    "descricao": ""
+  },
+  "morango_suico": {
+    "titulo": "Morango suíço",
+    "descricao": ""
+  },
+  "maracuja_suico": {
+    "titulo": "Maracujá suíço",
+    "descricao": ""
+  },
+  "limonada_suica": {
+    "titulo": "Limonada suíça",
+    "descricao": ""
+  },
+  "suco_verde": {
+    "titulo": "Suco verde",
+    "descricao": "Suco verde refrescante. Aquela mistura de limão, manjericão, couve, abacaxi, gengibre e água de coco."
+  },
+  "suco_de_pitaya_com_abacaxi": {
+    "titulo": "Suco de pitaya com abacaxi",
+    "descricao": "Mistura de pitaya, abacaxi, hortelã, gengibre, limão e água de coco."
+  }
+}

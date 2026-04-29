@@ -1,0 +1,42 @@
+{
+  "burrata_com_tomate_cereja": {
+    "titulo": "Burrata com tomate cereja, pesto de manjerição e rúcula.",
+    "descricao": "Queijo tipo burrata com tomates cereja. Acompanha pasta de manjericão fresco com parmesão, alho azeite e rúcula."
+  },
+  "saladinha_de_jilo": {
+    "titulo": "Saladinha de jiló",
+    "descricao": "Jiló marinado."
+  },
+  "cenourinha_a_palito": {
+    "titulo": "Cenourinha a palito",
+    "descricao": ""
+  },
+  "petisqueira_de_frios_inteira": {
+    "titulo": "Petisqueira de frios – Inteira",
+    "descricao": "Salaminho, azeitona sem caroço, muçarela, tomate e palmito."
+  },
+  "petisqueira_de_frios_meia": {
+    "titulo": "Petisqueira de frios – Meia",
+    "descricao": "Salaminho, azeitona sem caroço, muçarela, tomate e palmito."
+  },
+  "tomate_com_queijo_mucarela": {
+    "titulo": "Tomate com queijo muçarela",
+    "descricao": ""
+  },
+  "tomate_com_palmito": {
+    "titulo": "Tomate com palmito",
+    "descricao": ""
+  },
+  "salaminho_com_palmito": {
+    "titulo": "Salaminho com palmito",
+    "descricao": ""
+  },
+  "salaminho": {
+    "titulo": "Salaminho",
+    "descricao": ""
+  },
+  "salada_da_casa": {
+    "titulo": "Salada da casa",
+    "descricao": "Salada de alface, rúcula, tomate, queijo parmesão e palmito."
+  }
+}

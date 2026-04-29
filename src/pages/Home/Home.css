@@ -1,0 +1,447 @@
+.carrossel {
+    width: 100%;
+    margin: 0 auto;
+    height: 550px;
+}
+
+.slide-item {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+p {
+    margin-bottom: -20px;
+}
+
+.happy-hour-container {
+    background: #fff;
+    padding: 4rem 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.happy-hour-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFA500;
+}
+
+.happy-hour-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #FFA500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.happy-hour-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #494d52;
+}
+
+.history-button {
+    background-color: #FFA500;
+    color: #494d52;
+    border: none;
+    margin-top: 10px;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history-button:hover {
+    background-color: #ffa600bd;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu-banner {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menu-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.menu-banner:hover img {
+    transform: scale(1.05);
+}
+
+.menu-banner .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-banner h2 {
+    color: #FFA500;
+    font-size: 2rem;
+}
+
+/* Componente split com foto e descrição  */
+.split-featured-container {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin: 3rem 0;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Lado esquerdo - Foto */
+.split-left {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    min-height: 300px; /* Garante altura mínima */
+}
+
+.split-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.split-left:hover .split-image {
+    transform: scale(1.05);
+}
+
+/* Overlay na imagem */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-overlay span {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 28px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+    letter-spacing: 1px;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+.split-left:hover .image-overlay {
+    opacity: 1;
+}
+
+.split-left:hover .image-overlay span {
+    transform: translateY(0);
+}
+
+/* Lado direito - Descrição */
+.split-right {
+    flex: 1;
+    background: #494d52;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.split-right:hover {
+    background: linear-gradient(135deg, #494d52 0%, #0a0a0a 100%);
+}
+
+.split-content {
+    width: 100%;
+}
+
+.split-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFA500;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+.split-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #FFA500;
+    transition: width 0.3s ease;
+}
+
+.split-right:hover .split-title::after {
+    width: 100px;
+}
+
+.split-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #f0e6d8;
+    margin: 2rem 0;
+}
+
+.split-link {
+    display: inline-block;
+    color: #FFA500;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.split-right:hover .split-link {
+    border-bottom-color: #FFA500;
+    transform: translateX(5px);
+}
+
+
+/* Responsividade */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .split-featured-container {
+        min-height: 400px;
+    }
+    
+    .split-right {
+        padding: 2rem;
+    }
+    
+    .split-title {
+        font-size: 1.8rem;
+    }
+    
+    .split-description {
+        font-size: 1rem;
+        margin: 1.5rem 0;
+    }
+}
+
+/* Mobile (até 768px) */
+@media (max-width: 768px) {
+    /* Ajustes gerais */
+    .carrossel {
+        height: 250px;
+    }
+    
+    .slide-item {
+        height: 350px;
+    }
+    
+    /* Happy Hour */
+    .happy-hour-container {
+        padding: 2rem 1rem;
+        margin: 1rem 0;
+    }
+    
+    .happy-hour-title {
+        font-size: 1.8rem;
+    }
+    
+    .happy-hour-description {
+        font-size: 1rem;
+    }
+    
+    .history-button {
+        padding: 10px 24px;
+        font-size: 0.9rem;
+    }
+    
+    /* Menu banner */
+    .menu-banner {
+        height: 250px;
+    }
+    
+    .menu-banner h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Split container - CORREÇÃO PRINCIPAL */
+    .split-featured-container {
+        flex-direction: column; /* Empilha os elementos */
+        min-height: auto; /* Altura automática */
+        margin: 1.5rem 0;
+    }
+    
+    .split-left {
+        min-height: 250px; /* Altura menor para mobile */
+        width: 100%;
+    }
+    
+    .split-image {
+        min-height: 250px;
+        object-fit: cover;
+    }
+    
+    .split-right {
+        padding: 1.8rem;
+        width: 100%;
+    }
+    
+    .split-title {
+        font-size: 1.5rem;
+    }
+    
+    .split-description {
+        font-size: 0.95rem;
+        margin: 1.2rem 0;
+    }
+    
+    .split-link {
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile pequeno (até 480px) */
+@media (max-width: 480px) {
+    .carrossel {
+        height: 250px;
+    }
+    
+    .slide-item {
+        height: 250px;
+    }
+    
+    .happy-hour-title {
+        font-size: 1.4rem;
+    }
+    
+    .happy-hour-description p {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+    
+    .menu-banner {
+        height: 200px;
+    }
+    
+    .menu-banner h2 {
+        font-size: 1.2rem;
+    }
+    
+    .split-left {
+        min-height: 200px;
+    }
+    
+    .split-image {
+        min-height: 200px;
+    }
+    
+    .split-right {
+        padding: 1.2rem;
+    }
+    
+    .split-title {
+        font-size: 1.0rem;
+    }
+    
+    .split-description {
+        font-size: 0.85rem;
+        margin: 1rem 0;
+    }
+    
+    .split-link {
+        font-size: 0.75rem;
+    }
+}
+
+/* Ajuste para telas muito grandes */
+@media (min-width: 1400px) {
+    .split-featured-container {
+        min-height: 550px;
+    }
+    
+    .split-title {
+        font-size: 2.5rem;
+    }
+    
+    .split-description {
+        font-size: 1.2rem;
+    }
+}
+
+/* ============================================ */
+/* FORÇAR CORES LARANJA NO SWIPER - VERSÃO DEFINITIVA */
+/* ============================================ */
+
+/* Botões de navegação (setas) */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #FFA500 !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #FFA500 !important;
+}
+
+/* Paginação (bolinhas) */
+.swiper-pagination-bullet {
+  background-color: #FFA500 !important;
+  opacity: 0.4 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFA500 !important;
+  opacity: 1 !important;
+}
+
+/* Para o paginação com fundo escuro */
+.swiper-pagination-bullet {
+  background: #FFA500 !important;
+}
+
+/* Scrollbar */
+.swiper-scrollbar-drag {
+  background: #FFA500 !important;
+}
+
+/* Preloader (carregamento) */
+.swiper-lazy-preloader {
+  border-color: #FFA500 !important;
+  border-top-color: transparent !important;
+}

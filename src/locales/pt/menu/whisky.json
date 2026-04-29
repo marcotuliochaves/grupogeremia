@@ -1,0 +1,22 @@
+{
+  "old_parr": {
+    "titulo": "Old Parr",
+    "descricao": "12 anos"
+  },
+  "chivas": {
+    "titulo": "Chivas",
+    "descricao": "12 anos"
+  },
+  "black_label": {
+    "titulo": "Black Label",
+    "descricao": "12 anos"
+  },
+  "jack_daniels": {
+    "titulo": "Jack Daniel's",
+    "descricao": "8 anos"
+  },
+  "red_label": {
+    "titulo": "Red Label",
+    "descricao": "8 anos"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "pastel_carne_queijo": {
+    "titulo": "Pastel carne e queijo",
+    "descricao": "Pastel recheado com carne e queijo (3 unidades de cada)."
+  },
+  "pastel_pernil": {
+    "titulo": "Pastel de pernil",
+    "descricao": "Pastel tradicional recheado com pernil (6 unidades)."
+  },
+  "coxinha_costela": {
+    "titulo": "Coxinha de costela Gourmet",
+    "descricao": "Muito crocante. Contém 10 unidades."
+  },
+  "coxinha_mista": {
+    "titulo": "Coxinha mista Gourmet",
+    "descricao": "Muito crocante. Contém 5 unidades de frango e 5 de costela."
+  },
+  "coxinha_pernil": {
+    "titulo": "Coxinha de pernil",
+    "descricao": "10 unidades de coxinha de pernil gourmet. Muito crocante!"
+  },
+  "coxinha_frango": {
+    "titulo": "Coxinha de frango",
+    "descricao": "10 unidades de coxinha de frango gourmet. Muito crocante!"
+  },
+  "pipoca_coalho": {
+    "titulo": "Pipoca de queijo coalho",
+    "descricao": "Dadinho de tapioca com molho de goiaba com pimenta."
+  },
+  "torresmo_inteira": {
+    "titulo": "Torresminho Geremia – Inteira",
+    "descricao": "Acompanha mandioca temperada na manteiga."
+  },
+  "torresmo_meia": {
+    "titulo": "Torresminho Geremia – Meia",
+    "descricao": "Acompanha mandioca temperada na manteiga."
+  },
+  "maia_fraldinha": {
+    "titulo": "Maia de fraldinha",
+    "descricao": "8 unidades acompanhadas de vinagrete de cebola e chips de quiabo."
+  },
+  "mignon_parmegiana_palito": {
+    "titulo": "Filé mignon à parmegiana a palito",
+    "descricao": "Porção de 400g com pão francês."
+  },
+  "fraldinha_angus": {
+    "titulo": "Fraldinha Angus do Chef",
+    "descricao": "450g com purê de mandioquinha e batata rústica."
+  },
+  "file_gorgonzola": {
+    "titulo": "Filé mignon ao molho de gorgonzola",
+    "descricao": "450g acompanhado de pão francês."
+  },
+  "file_canastra_porcao": {
+    "titulo": "Filé mignon ao molho canastra",
+    "descricao": "450g acompanhado de pão francês."
+  },
+  "file_cerveja_preta": {
+    "titulo": "Filé mignon ao molho de cerveja preta",
+    "descricao": "450g com cebola e pão francês."
+  },
+  "picanha_geremia": {
+    "titulo": "Picanha Geremia",
+    "descricao": "Picanha em tiras com muçarela, tomate, mandioca e batata frita."
+  },
+  "file_com_fritas": {
+    "titulo": "Filé mignon com fritas",
+    "descricao": "450g de carne com 450g de batata."
+  },
+  "file_com_fritas_catupiry": {
+    "titulo": "Filé mignon com fritas e catupiry",
+    "descricao": "Carne acebolada com batata e catupiry."
+  },
+  "trio": {
+    "titulo": "Trio (juntos e misturados)",
+    "descricao": "Filé mignon, frango e calabresa com batata frita."
+  },
+  "figado_inteira": {
+    "titulo": "Fígado acebolado com jiló – Inteira",
+    "descricao": "Fígado com jiló e cebola."
+  },
+  "figado_meia": {
+    "titulo": "Fígado acebolado com jiló – Meia",
+    "descricao": "Fígado com jiló e cebola."
+  },
+  "isca_tilapia_inteira": {
+    "titulo": "Isca de tilápia – Inteira",
+    "descricao": "500g com molho tártaro."
+  },
+  "isca_tilapia_meia": {
+    "titulo": "Isca de tilápia – Meia",
+    "descricao": "250g com molho tártaro."
+  },
+  "isca_frango_inteira": {
+    "titulo": "Isca de frango – Inteira",
+    "descricao": "500g com molho tártaro."
+  },
+  "isca_frango_meia": {
+    "titulo": "Isca de frango – Meia",
+    "descricao": "250g com molho tártaro."
+  },
+  "medalhao_picanha": {
+    "titulo": "Medalhão de picanha",
+    "descricao": "300g com tomate, mandioca e farofa."
+  },
+  "bolinho_mandioca": {
+    "titulo": "Bolinho de mandioca com carne seca",
+    "descricao": ""
+  },
+  "bolinho_arroz": {
+    "titulo": "Bolinho de arroz",
+    "descricao": ""
+  },
+  "batata_palito": {
+    "titulo": "Batata palito",
+    "descricao": "450g"
+  },
+  "batata_palito_queijo_bacon": {
+    "titulo": "Batata frita com queijo e bacon",
+    "descricao": "450g"
+  },
+  "batata_chips": {
+    "titulo": "Batata chips do André",
+    "descricao": ""
+  },
+  "moelinha": {
+    "titulo": "Moelinha do Gerê",
+    "descricao": "Ao molho de tomate."
+  },
+  "frango_passarinho": {
+    "titulo": "Frango a passarinho",
+    "descricao": "1kg com alho e cebola."
+  },
+  "ceviche_tilapia_inteira": {
+    "titulo": "Ceviche de tilápia – Inteira",
+    "descricao": "500g"
+  },
+  "ceviche_tilapia_meia": {
+    "titulo": "Ceviche de tilápia – Meia",
+    "descricao": "250g"
+  }
+}

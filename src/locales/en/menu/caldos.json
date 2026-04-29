@@ -1,0 +1,18 @@
+{
+  "caldinho_de_feijao": {
+    "titulo": "Black beans and bacon soup",
+    "descricao": "Black beans and bacon soup, roll, mozarella cheese, chive."
+  },
+  "caldinho_de_frango": {
+    "titulo": "Chicken soup",
+    "descricao": "Chicken soup, roll, mozarella cheese, chive."
+  },
+  "caldinho_de_costela": {
+    "titulo": "Rib soup",
+    "descricao": "Rib soup, roll, mozarella cheese, chive."
+  },
+  "caldinho_de_alho_poro": {
+    "titulo": "Leek soup (vegetarian)",
+    "descricao": "Leek soup, roll, mozarella cheese, chive."
+  }
+}

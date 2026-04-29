@@ -1,0 +1,58 @@
+{
+  "laranja": {
+    "titulo": "Orange Juice",
+    "descricao": ""
+  },
+  "limao": {
+    "titulo": "Lemonade",
+    "descricao": ""
+  },
+  "abacaxi": {
+    "titulo": "Pinapple juice",
+    "descricao": ""
+  },
+  "acerola": {
+    "titulo": "Acerola",
+    "descricao": ""
+  },
+  "maracuja": {
+    "titulo": "Passion fruit Juice",
+    "descricao": ""
+  },
+  "morango": {
+    "titulo": "Strawberry juice",
+    "descricao": ""
+  },
+  "abacaxi_com_hortela": {
+    "titulo": "Mix of pineapple and mint juice",
+    "descricao": ""
+  },
+  "laranja_com_acerola": {
+    "titulo": "Mix of orange and acerola juice",
+    "descricao": ""
+  },
+  "laranja_com_morango": {
+    "titulo": "Mix of orange and strawberry juice",
+    "descricao": ""
+  },
+  "morango_suico": {
+    "titulo": "Strawberry (made with milk)",
+    "descricao": ""
+  },
+  "maracuja_suico": {
+    "titulo": "Passion fruit (made with milk)",
+    "descricao": ""
+  },
+  "limonada_suica": {
+    "titulo": "Lemonade (made with milk)",
+    "descricao": ""
+  },
+  "suco_verde": {
+    "titulo": "Green Juice",
+    "descricao": "A blend of lime, basil, kale, pineapple, ginger, and coconut water."
+  },
+  "suco_de_pitaya_com_abacaxi": {
+    "titulo": "Pitaya Juice with Pineapple",
+    "descricao": "A blend of pitaya, pineapple, mint, ginger, lime, and coconut water."
+  }
+}

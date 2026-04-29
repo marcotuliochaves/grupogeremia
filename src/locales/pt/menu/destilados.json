@@ -1,0 +1,38 @@
+{
+  "absolut": {
+    "titulo": "Absolut",
+    "descricao": ""
+  },
+  "orloff": {
+    "titulo": "Orloff",
+    "descricao": ""
+  },
+  "campari": {
+    "titulo": "Campari",
+    "descricao": ""
+  },
+  "gin_nacional": {
+    "titulo": "Gin Nacional",
+    "descricao": ""
+  },
+  "gin_beefeater": {
+    "titulo": "Gin Beefeater",
+    "descricao": ""
+  },
+  "tequila_jose_cuervo": {
+    "titulo": "Tequila José Cuervo",
+    "descricao": ""
+  },
+  "licor_43": {
+    "titulo": "Licor 43",
+    "descricao": "Cuarenta y tres"
+  },
+  "licor_jagermeister": {
+    "titulo": "Licor Jagermeister",
+    "descricao": ""
+  },
+  "amarula": {
+    "titulo": "Amarula",
+    "descricao": ""
+  }
+}

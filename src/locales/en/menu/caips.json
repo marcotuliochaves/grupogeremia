@@ -1,0 +1,50 @@
+{
+  "caipi_gere": {
+    "titulo": "Caipi Gerê",
+    "descricao": "Brown sugar syrup and Tahiti lime."
+  },
+  "gere_tropical": {
+    "titulo": "Gerê Tropical",
+    "descricao": "Our tropical Geremia — a refreshing drink made with a shot of Beefeater gin, passion fruit, and Red Bull Tropical energy drink."
+  },
+  "caraiva": {
+    "titulo": "Caraíva",
+    "descricao": "Drink with strawberry, passion fruit, and tangerine."
+  },
+  "negroni": {
+    "titulo": "Negroni",
+    "descricao": "The classic Negroni — a timeless favorite that needs no introduction."
+  },
+  "moscow_mule": {
+    "titulo": "Moscow Mule",
+    "descricao": "Vodka with ginger and lemon syrup and foam."
+  },
+  "gin_tonica_com_morango": {
+    "titulo": "Strawberry Gin tonic",
+    "descricao": ""
+  },
+  "sicilian_bee": {
+    "titulo": "Sicilian Bee",
+    "descricao": "Gin, tonic, lemon, honey"
+  },
+  "caip_seleta": {
+    "titulo": "Caip Seleta",
+    "descricao": ""
+  },
+  "caipirinha": {
+    "titulo": "Caipirinha",
+    "descricao": ""
+  },
+  "caiproska": {
+    "titulo": "Caiproska",
+    "descricao": ""
+  },
+  "caip_absolut": {
+    "titulo": "Caip Absolut",
+    "descricao": ""
+  },
+  "caip_saque": {
+    "titulo": "Caip Saquê",
+    "descricao": ""
+  }
+}

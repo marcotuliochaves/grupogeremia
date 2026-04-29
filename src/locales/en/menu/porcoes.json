@@ -1,0 +1,142 @@
+{
+  "pastel_carne_queijo": {
+    "titulo": "Ground beef and cheese pastel",
+    "descricao": "Pastry filled with beef and cheese (3 each)."
+  },
+  "pastel_pernil": {
+    "titulo": "Pork pastel",
+    "descricao": "Traditional pastry filled with pork (6 units)."
+  },
+  "coxinha_costela": {
+    "titulo": "Gourmet rib coxinha",
+    "descricao": "Very crispy. 10 units."
+  },
+  "coxinha_mista": {
+    "titulo": "Mixed gourmet coxinha",
+    "descricao": "5 chicken and 5 rib units."
+  },
+  "coxinha_pernil": {
+    "titulo": "Pork coxinha",
+    "descricao": "10 crispy units."
+  },
+  "coxinha_frango": {
+    "titulo": "Chicken coxinha",
+    "descricao": "10 crispy units."
+  },
+  "pipoca_coalho": {
+    "titulo": "Fried tapioca cubes",
+    "descricao": "Served with spicy guava sauce."
+  },
+  "torresmo_inteira": {
+    "titulo": "Geremia crackling – Full",
+    "descricao": "Served with manioc."
+  },
+  "torresmo_meia": {
+    "titulo": "Geremia crackling – Half",
+    "descricao": "Served with manioc."
+  },
+  "maia_fraldinha": {
+    "titulo": "Breaded beef balls",
+    "descricao": "8 units with onion vinaigrette and okra chips."
+  },
+  "mignon_parmegiana_palito": {
+    "titulo": "Parmigiana beef sticks",
+    "descricao": "400g portion with bread."
+  },
+  "fraldinha_angus": {
+    "titulo": "Angus flank steak",
+    "descricao": "Served with mash and rustic potatoes."
+  },
+  "file_gorgonzola": {
+    "titulo": "Tenderloin with gorgonzola",
+    "descricao": "Served with bread."
+  },
+  "file_canastra_porcao": {
+    "titulo": "Tenderloin with Canastra cheese",
+    "descricao": "Served with bread."
+  },
+  "file_cerveja_preta": {
+    "titulo": "Tenderloin with dark beer sauce",
+    "descricao": "With onions and bread."
+  },
+  "picanha_geremia": {
+    "titulo": "Geremia picanha",
+    "descricao": "Served with manioc, fries, tomato and cheese."
+  },
+  "file_com_fritas": {
+    "titulo": "Tenderloin with fries",
+    "descricao": "Beef with fries."
+  },
+  "file_com_fritas_catupiry": {
+    "titulo": "Tenderloin with fries and cream cheese",
+    "descricao": ""
+  },
+  "trio": {
+    "titulo": "Mixed grill",
+    "descricao": "Beef, chicken and sausage with fries."
+  },
+  "figado_inteira": {
+    "titulo": "Grilled liver – Full",
+    "descricao": "With jiló and onions."
+  },
+  "figado_meia": {
+    "titulo": "Grilled liver – Half",
+    "descricao": "With jiló and onions."
+  },
+  "isca_tilapia_inteira": {
+    "titulo": "Fish fingers – Full",
+    "descricao": "With tartar sauce."
+  },
+  "isca_tilapia_meia": {
+    "titulo": "Fish fingers – Half",
+    "descricao": "With tartar sauce."
+  },
+  "isca_frango_inteira": {
+    "titulo": "Chicken fingers – Full",
+    "descricao": ""
+  },
+  "isca_frango_meia": {
+    "titulo": "Chicken fingers – Half",
+    "descricao": ""
+  },
+  "medalhao_picanha": {
+    "titulo": "Picanha steak",
+    "descricao": ""
+  },
+  "bolinho_mandioca": {
+    "titulo": "Manioc balls with beef",
+    "descricao": ""
+  },
+  "bolinho_arroz": {
+    "titulo": "Rice balls",
+    "descricao": ""
+  },
+  "batata_palito": {
+    "titulo": "French fries",
+    "descricao": ""
+  },
+  "batata_palito_queijo_bacon": {
+    "titulo": "Fries with cheese and bacon",
+    "descricao": ""
+  },
+  "batata_chips": {
+    "titulo": "Potato chips",
+    "descricao": ""
+  },
+  "moelinha": {
+    "titulo": "Chicken gizzards",
+    "descricao": "In tomato sauce."
+  },
+  "frango_passarinho": {
+    "titulo": "Fried chicken",
+    "descricao": "Brazilian style."
+  },
+  "ceviche_tilapia_inteira": {
+    "titulo": "Tilapia ceviche – Full",
+    "descricao": ""
+  },
+  "ceviche_tilapia_meia": {
+    "titulo": "Tilapia ceviche – Half",
+    "descricao": ""
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "carmen_citrus": {
+    "titulo": "Carmen Citrus",
+    "descricao": "Carmen Citrus é uma homenagem a nossa especial chef de cozinha Carminha. Esse drink leve, frutado e aromático, foi inserido em homenagem ao dia das mulheres. Possui um toque de baunilha, morango e limão siciliano."
+  },
+  "juju_tropical": {
+    "titulo": "Juju Tropical",
+    "descricao": "Para quem quer celebrar com um drink cítrico e frutado, Juju tropical foi acrescentado no cardápio para homenagear nossa grande Judith. Uma mistura de pitaya, maracujá, hortelã."
+  },
+  "lili_twist": {
+    "titulo": "Lili Twist",
+    "descricao": "E para quem adora um drink com o frescor de gengibre, criamos um drink Lili Twist. Uma mistura de abacaxi, limão, própolis e espuma de gengibre. Em especial a nossa querida Liliane!"
+  },
+  "fitzgeria": {
+    "titulo": "Fitzgeria",
+    "descricao": "Gin, limão siciliano, Angostura Bitter, água com gás e xarope de açúcar."
+  },
+  "rabo_de_saia": {
+    "titulo": "Rabo de saia",
+    "descricao": "Cynar, Cachaça, Jägermeister, Angostura, laranja, melaço de cana e limão siciliano."
+  },
+  "caipi_gere": {
+    "titulo": "Caipi Gerê",
+    "descricao": "Xarope de rapadura, limão taiti."
+  },
+  "gere_tropical": {
+    "titulo": "Gerê tropical",
+    "descricao": "Nosso Geremia tropical, é uma bebida refrescante com dose de gin Beefeater, maracujá e energético Red Bull tropical."
+  },
+  "caraiva": {
+    "titulo": "Caraíva",
+    "descricao": "Drink com morango, maracujá e tangerina."
+  },
+  "maracujack": {
+    "titulo": "Maracujack",
+    "descricao": "Maracujack, será um queridinho do Gerê. Uma mistura de dose de Jack Daniel's e polpa de maracujá."
+  },
+  "mojito": {
+    "titulo": "Mojito",
+    "descricao": "Famoso Mojito, um coquetel a base de rum, água com gás, limão e hortelã."
+  },
+  "aperol_rose": {
+    "titulo": "Aperol Rosê",
+    "descricao": "Aperol, espumante brut, suco de laranja, limão siciliano e xarope de morango."
+  },
+  "negroni": {
+    "titulo": "Negroni",
+    "descricao": "O clássico Negroni que dispensa comentários."
+  },
+  "moscow_mule": {
+    "titulo": "Moscow Mule",
+    "descricao": "Vodka, espuma e xarope de gengibre e limão."
+  },
+  "gin_tonica_com_morango": {
+    "titulo": "Gin tonica com morango",
+    "descricao": ""
+  },
+  "sicilian_bee": {
+    "titulo": "Sicilian bee",
+    "descricao": "Gin, tonica, limão siciliano e mel."
+  },
+  "aperol_spritz": {
+    "titulo": "Aperol Spritz",
+    "descricao": ""
+  },
+  "cozumel_corona": {
+    "titulo": "Cozumel Corona",
+    "descricao": ""
+  },
+  "cozumel_heineken": {
+    "titulo": "Cozumel Heineken",
+    "descricao": ""
+  },
+  "cozumel_heineken_zero": {
+    "titulo": "Cozumel Heineken zero",
+    "descricao": ""
+  },
+  "cozumel_amstel": {
+    "titulo": "Cozumel Amstel",
+    "descricao": ""
+  },
+  "cozumel_amstel_ultra": {
+    "titulo": "Cozumel Amstel Ultra",
+    "descricao": "Sem glúten."
+  },
+  "licor_43_coffe": {
+    "titulo": "Licor 43 coffe",
+    "descricao": "Cuarenta y tres"
+  },
+  "ura_sem_alcool": {
+    "titulo": "Ura – sem álcool",
+    "descricao": "Drink sem álcool à base de abacaxi, xarope de morango e água com gás."
+  },
+  "soda_italiana_sem_alcool": {
+    "titulo": "Soda italiana – sem álcool",
+    "descricao": "Drink sem álcool à base de xarope de frutas, suco de limão e água com gás. Opções de sabores: Morango, Tangerina ou Maça verde."
+  },
+  "suco_verde": {
+    "titulo": "Suco verde",
+    "descricao": "Suco verde refrescante. Aquela mistura de limão, manjericão, couve, abacaxi, gengibre e água de coco."
+  },
+  "suco_de_pitaya_com_abacaxi": {
+    "titulo": "Suco de pitaya com abacaxi",
+    "descricao": "Mistura de pitaya, abacaxi, hortelã, gengibre, limão e água de coco."
+  }
+}

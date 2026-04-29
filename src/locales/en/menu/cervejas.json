@@ -1,0 +1,22 @@
+{
+  "heineken": {
+    "titulo": "Heineken",
+    "descricao": ""
+  },
+  "amstel": {
+    "titulo": "Amstel",
+    "descricao": ""
+  },
+  "original": {
+    "titulo": "Original",
+    "descricao": ""
+  },
+  "baden_baden_ipa": {
+    "titulo": "Baden baden ipa",
+    "descricao": ""
+  },
+  "limao_espremido": {
+    "titulo": "Lime (squeezed)",
+    "descricao": ""
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "carmen_citrus": {
+    "titulo": "Carmen Citrus",
+    "descricao": "Carmen Citrus is a tribute to our special chef Carminha. This light, fruity, and aromatic drink was created in honor of International Women's Day. It features notes of vanilla, strawberry, and Sicilian lemon."
+  },
+  "juju_tropical": {
+    "titulo": "Juju Tropical",
+    "descricao": "For those who want to celebrate with a citrusy and fruity drink, Juju Tropical was added to the menu as a tribute to our dear Judith. A mix of pitaya, passion fruit, and mint."
+  },
+  "lili_twist": {
+    "titulo": "Lili Twist",
+    "descricao": "And for those who love a drink with the freshness of ginger, we created the Lili Twist — a blend of pineapple, lemon, propolis, and ginger foam. A special tribute to our beloved Liliane!"
+  },
+  "fitzgeria": {
+    "titulo": "Fitzgeria",
+    "descricao": "Gin, Sicilian lemon, Angostura Bitter, sparkling water, and sugar syrup."
+  },
+  "rabo_de_saia": {
+    "titulo": "Rabo de saia",
+    "descricao": "Cynar, cachaça, Jägermeister, Angostura, orange, cane molasses, and Sicilian lemon."
+  },
+  "caipi_gere": {
+    "titulo": "Caipi Gerê",
+    "descricao": "Brown sugar syrup and Tahiti lime."
+  },
+  "gere_tropical": {
+    "titulo": "Gerê Tropical",
+    "descricao": "Our tropical Geremia — a refreshing drink made with a shot of Beefeater gin, passion fruit, and Red Bull Tropical energy drink."
+  },
+  "caraiva": {
+    "titulo": "Caraíva",
+    "descricao": "Drink with strawberry, passion fruit, and tangerine."
+  },
+  "maracujack": {
+    "titulo": "Maracujack",
+    "descricao": "A future favorite at Gerê — a mix of Jack Daniel's whiskey and passion fruit pulp."
+  },
+  "mojito": {
+    "titulo": "Mojito",
+    "descricao": "A cocktail made with rum, sparkling water, lime, and mint."
+  },
+  "aperol_rose": {
+    "titulo": "Aperol Rosê",
+    "descricao": "Aperol, brut sparkling wine, orange juice, Sicilian lemon, and strawberry syrup."
+  },
+  "negroni": {
+    "titulo": "Negroni",
+    "descricao": "The classic Negroni — a timeless favorite that needs no introduction."
+  },
+  "moscow_mule": {
+    "titulo": "Moscow Mule",
+    "descricao": "Vodka with ginger and lemon syrup and foam."
+  },
+  "gin_tonica_com_morango": {
+    "titulo": "Strawberry Gin tonic",
+    "descricao": ""
+  },
+  "sicilian_bee": {
+    "titulo": "Sicilian Bee",
+    "descricao": "Gin, tonic, lemon, honey"
+  },
+  "aperol_spritz": {
+    "titulo": "Aperol Spritz",
+    "descricao": ""
+  },
+  "cozumel_corona": {
+    "titulo": "Cozumel Corona",
+    "descricao": ""
+  },
+  "cozumel_heineken": {
+    "titulo": "Cozumel Heineken",
+    "descricao": ""
+  },
+  "cozumel_heineken_zero": {
+    "titulo": "Cozumel Heineken 0.0",
+    "descricao": ""
+  },
+  "cozumel_amstel": {
+    "titulo": "Cozumel Amstel",
+    "descricao": ""
+  },
+  "cozumel_amstel_ultra": {
+    "titulo": "Cozumel Amstel Ultra",
+    "descricao": "Gluten free"
+  },
+  "licor_43_coffe": {
+    "titulo": "Licor 43 coffe",
+    "descricao": "Cuarenta y tres"
+  },
+  "ura_sem_alcool": {
+    "titulo": "Ura – Non-alcoholic",
+    "descricao": "A non-alcoholic drink made with pineapple, strawberry syrup, and sparkling water."
+  },
+  "soda_italiana_sem_alcool": {
+    "titulo": "Italian Soda – Non-alcoholic",
+    "descricao": "A non-alcoholic drink made with fruit syrup, lime juice, and sparkling water. Flavors available: Strawberry, Tangerine, or Green Apple."
+  },
+  "suco_verde": {
+    "titulo": "Green Juice",
+    "descricao": "A blend of lime, basil, kale, pineapple, ginger, and coconut water."
+  },
+  "suco_de_pitaya_com_abacaxi": {
+    "titulo": "Pitaya Juice with Pineapple",
+    "descricao": "A blend of pitaya, pineapple, mint, ginger, lime, and coconut water."
+  }
+}

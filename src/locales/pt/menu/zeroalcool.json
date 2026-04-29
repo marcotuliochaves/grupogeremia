@@ -1,0 +1,62 @@
+{
+  "agua_sem_gas": {
+    "titulo": "Água sem gás",
+    "descricao": ""
+  },
+  "agua_com_gas": {
+    "titulo": "Água com gás",
+    "descricao": ""
+  },
+  "coca_cola": {
+    "titulo": "Coca Cola",
+    "descricao": ""
+  },
+  "coca_cola_zero": {
+    "titulo": "Coca Cola Zero",
+    "descricao": ""
+  },
+  "sprite": {
+    "titulo": "Sprite",
+    "descricao": ""
+  },
+  "schweppes_citrus": {
+    "titulo": "Schweppes Citrus",
+    "descricao": ""
+  },
+  "guarana_antartica": {
+    "titulo": "Guaraná Antártica",
+    "descricao": ""
+  },
+  "guarana_antartica_zero": {
+    "titulo": "Guaraná Antártica Zero",
+    "descricao": ""
+  },
+  "tonica": {
+    "titulo": "Tônica",
+    "descricao": ""
+  },
+  "h2o_limao_ou_limoneto": {
+    "titulo": "H2O! Limão ou Limoneto",
+    "descricao": ""
+  },
+  "red_bull": {
+    "titulo": "Red Bull",
+    "descricao": ""
+  },
+  "agua_de_coco": {
+    "titulo": "Água de coco",
+    "descricao": ""
+  },
+  "ura_sem_alcool": {
+    "titulo": "Ura - sem álcool",
+    "descricao": "Drink sem álcool à base de abacaxi, xarope de morango e água com gás."
+  },
+  "soda_italiana_sem_alcool": {
+    "titulo": "Soda italiana – sem álcool",
+    "descricao": "Drink sem álcool à base de xarope de frutas, suco de limão e água com gás. Opções de sabores: Morango, Tangerina ou Maça verde."
+  },
+  "heineken_zero_alcool": {
+    "titulo": "Heineken 330 ml – Zero álcool",
+    "descricao": ""
+  }
+}

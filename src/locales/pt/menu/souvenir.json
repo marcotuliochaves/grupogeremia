@@ -1,0 +1,14 @@
+{
+  "cachaca_geremia_ouro": {
+    "titulo": "Cachaça Geremia Ouro",
+    "descricao": "Garrafa especial envelhecida"
+  },
+  "cachaca_geremia_prata": {
+    "titulo": "Cachaça Geremia Prata",
+    "descricao": "Versão clássica da casa"
+  },
+  "tulipa_geremia": {
+    "titulo": "Tulipa Geremia",
+    "descricao": "Copo personalizado"
+  }
+}

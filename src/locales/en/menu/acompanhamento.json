@@ -1,0 +1,38 @@
+{
+  "chips_de_quiabo": {
+    "titulo": "Crispy Okra",
+    "descricao": ""
+  },
+  "tropeirinho_do_gere": {
+    "titulo": "Geremia's Tropeiro",
+    "descricao": "A kind of bean from Brazil, made with dry beans, toasted manioc flour, cooked eggs, bacon and calabresa sausages."
+  },
+  "mandioca_cozida_temperada": {
+    "titulo": "Manioc",
+    "descricao": "Cooked manioc."
+  },
+  "pure_de_batata_aipo": {
+    "titulo": "Smashed celery potato",
+    "descricao": "contain milk"
+  },
+  "porcao_de_arroz": {
+    "titulo": "Brazilian rice",
+    "descricao": ""
+  },
+  "paozinho_frances": {
+    "titulo": "Roll (bread)",
+    "descricao": ""
+  },
+  "molho_vinagrete": {
+    "titulo": "Sliced tomatoes in a vinegar sauce",
+    "descricao": ""
+  },
+  "molhinho_de_alho_da_casa": {
+    "titulo": "Garlic dip",
+    "descricao": ""
+  },
+  "farofinha": {
+    "titulo": "Farofa (toasted manioc flour)",
+    "descricao": ""
+  }
+}

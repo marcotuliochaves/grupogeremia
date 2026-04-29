@@ -1,0 +1,98 @@
+{
+  "feijoada_dupla": {
+    "titulo": "Gerê's Feijoada – Double",
+    "descricao": "Traditional brazilian black beans with broth, cooked with cuts of pork and calabresa sausage. Served with rice, toasted manioc flour, green cabage and spicy sauce. Just taste it. (Only saturdays)"
+  },
+  "feijoada_individual": {
+    "titulo": "Gerê's Feijoada – Single",
+    "descricao": "Traditional brazilian black beans with broth, cooked with cuts of pork and calabresa sausage. Served with rice, toasted manioc flour, green cabage and spicy sauce. Just taste it. (Only saturdays)"
+  },
+  "frango_parmegiana_duplo": {
+    "titulo": "Chicken Parmigiana – Double",
+    "descricao": "Breaded chicken filet topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "frango_parmegiana_individual": {
+    "titulo": "Chicken Parmigiana – Single",
+    "descricao": "Breaded chicken filet topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "tilapia_parmegiana_duplo": {
+    "titulo": "Parmegiana fish - Double",
+    "descricao": "Breaded fish filet topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "tilapia_parmegiana_individual": {
+    "titulo": "Parmegiana fish - Single",
+    "descricao": "Breaded fish filet topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "file_mignon_parmegiana_duplo": {
+    "titulo": "Parmegiana beef - Double",
+    "descricao": "Breaded Tenderloin steak topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "file_mignon_parmegiana_individual": {
+    "titulo": "Parmegiana beef - Single",
+    "descricao": "Breaded Tenderloin steak topped with mozarella cheese and tomatoes sauce. Served with fries."
+  },
+  "file_mignon_canastra_duplo": {
+    "titulo": "Tenderloin with Canastra cheese sauce - Double",
+    "descricao": "Slices of grilled tenderloin beef dipped in a sauce made with a famous brazilian cheese produced in Canastra region."
+  },
+  "file_mignon_canastra_individual": {
+    "titulo": "Tenderloin with Canastra cheese sauce - Single",
+    "descricao": "Slices of grilled tenderloin beef dipped in a sauce made with a famous brazilian cheese produced in Canastra region."
+  },
+  "file_mignon_mostarda_duplo": {
+    "titulo": "Tenderloin with mustard sauce - Double",
+    "descricao": ""
+  },
+  "file_mignon_mostarda_individual": {
+    "titulo": "Tenderloin with mustard sauce - Single",
+    "descricao": ""
+  },
+  "file_mignon_zoiudo_duplo": {
+    "titulo": "Beef and egg - Double",
+    "descricao": "Tenderloin steak, rice, fried egg, \"tropeiro\" and braised green cabage."
+  },
+  "file_mignon_zoiudo_individual": {
+    "titulo": "Beef and egg - Single",
+    "descricao": "Tenderloin steak, rice, fried egg, \"tropeiro\" and braised green cabage."
+  },
+  "picanha_mineira_duplo": {
+    "titulo": "Mineiro's beef - Double",
+    "descricao": "Rump cover steak, rice, \"tropeiro\" and braised green cabage."
+  },
+  "picanha_mineira_individual": {
+    "titulo": "Mineiro's beef - Single",
+    "descricao": "Rump cover steak, rice, \"tropeiro\" and braised green cabage."
+  },
+  "medalhao_file_gere": {
+    "titulo": "Geremia's tenderloin",
+    "descricao": "Tenderloin steak (high cut), smashed banana and fried manioc flour with sliced almond."
+  },
+  "tilapia_grelhada_legumes": {
+    "titulo": "Griled fish and vegetables",
+    "descricao": "Grilled fish, carrot, brocolli and cauliflower."
+  },
+  "file_mignon_grelhado_legumes": {
+    "titulo": "Griled beef and vegetables",
+    "descricao": "Grilled tenderloin, carrot, brocolli and cauliflower."
+  },
+  "arroz_bacalhau_duplo": {
+    "titulo": "Rice with cod - Double",
+    "descricao": "Rice with codfish, black olives, broccoli, and the house's signature potato strings."
+  },
+  "arroz_bacalhau_individual": {
+    "titulo": "Rice with cod - Single",
+    "descricao": "Rice with codfish, black olives, broccoli, and the house's signature potato strings."
+  },
+  "file_mignon_kids": {
+    "titulo": "Tenderloin (for Kids)",
+    "descricao": "Tenderloin steak, rice, tomatoes, fries"
+  },
+  "frango_kids": {
+    "titulo": "Chicken fillet (for kids)",
+    "descricao": "Chicken filet, rice, tomatoes, fries"
+  },
+  "omelete_file_mignon": {
+    "titulo": "Tenderloin and Omelet",
+    "descricao": "Omelet stuffed with cheese and onion with tenderloin steak"
+  }
+}

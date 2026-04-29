@@ -1,0 +1,42 @@
+{
+  "burrata_com_tomate_cereja": {
+    "titulo": "Burrata with cherry tomatoes, basil pesto and arugula.",
+    "descricao": "Burrata cheese with cherry tomatoes. Served with fresh basil pesto, parmesan, garlic, olive oil and arugula."
+  },
+  "saladinha_de_jilo": {
+    "titulo": "Jiló salad",
+    "descricao": "Jiló (a bitter vegetable from brazil), raw onions seasoned with lime."
+  },
+  "cenourinha_a_palito": {
+    "titulo": "Carrot sticks",
+    "descricao": ""
+  },
+  "petisqueira_de_frios_inteira": {
+    "titulo": "Cold Cuts - Full size",
+    "descricao": "Olive, Italian salami , gorgonzola cheese, tomato, heart of palm. (raw)"
+  },
+  "petisqueira_de_frios_meia": {
+    "titulo": "Col cuts - Half size",
+    "descricao": "Olive, Italian salami , gorgonzola cheese, tomato, heart of palm. (raw)"
+  },
+  "tomate_com_queijo_mucarela": {
+    "titulo": "Tomato and mozarella cheese",
+    "descricao": ""
+  },
+  "tomate_com_palmito": {
+    "titulo": "Tomato and heart of palm",
+    "descricao": ""
+  },
+  "salaminho_com_palmito": {
+    "titulo": "Heart of palm and salami",
+    "descricao": ""
+  },
+  "salaminho": {
+    "titulo": "Salami",
+    "descricao": ""
+  },
+  "salada_da_casa": {
+    "titulo": "House salad",
+    "descricao": "Lettuce, arugula, tomato, parmesan cheese and heart of palm salad."
+  }
+}

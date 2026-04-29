@@ -1,0 +1,46 @@
+{
+  "el_raco": {
+    "titulo": "El Raco",
+    "descricao": "Cabernet Sauvignon. Chilean wine - 750 ml."
+  },
+  "alamos": {
+    "titulo": "Alamos",
+    "descricao": "Malbec, Mendonza Argentina - 750 ml."
+  },
+  "la_linda": {
+    "titulo": "La Linda",
+    "descricao": "Malbec. Argentina - 750 ml."
+  },
+  "cordero_con_piel_lobo": {
+    "titulo": "Cordero con piel de lobo",
+    "descricao": "Malbec. Argentina - 750 ml."
+  },
+  "casillero_del_diablo": {
+    "titulo": "Casillero Del Diablo",
+    "descricao": "Cabernet sauvignon. Chile - 750 ml."
+  },
+  "dv_catena": {
+    "titulo": "D.V Catena",
+    "descricao": "Malbec. Mendoza Argentina - 750 ml."
+  },
+  "casa_perini_demi_sec": {
+    "titulo": "Casa Perini - Demi sec",
+    "descricao": "Ssparkling wine - Demi-Sec"
+  },
+  "casa_perini_moscatel": {
+    "titulo": "Casa Perini – Moscatel",
+    "descricao": "Brazil - Moscatel"
+  },
+  "casa_perini_brut_rose": {
+    "titulo": "Casa Perini – Brut Rosé",
+    "descricao": "Brut Rosé Sparkling Wine."
+  },
+  "vinho_verde_500_rose": {
+    "titulo": "Vinho Verde 500 - Rose",
+    "descricao": "Portugal - 750 ml."
+  },
+  "vinho_verde_500_branco": {
+    "titulo": "Vinho Verde 500 - White",
+    "descricao": "Portugal - 750 ml."
+  }
+}

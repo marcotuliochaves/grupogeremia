@@ -1,0 +1,321 @@
+/* components/Footer/Footer.css */
+.footer {
+  background: linear-gradient(135deg, #494d52 0%, #0a0a0a 100%);
+  color: #f5f5f5;
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Colunas */
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Faz a 5ª coluna (última) ocupar a largura inteira */
+.footer-col:last-child {
+  grid-column: 1 / -1;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Centraliza o título da última coluna */
+.footer-col:last-child .footer-title::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Logo */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  max-height: 60px;
+  width: auto;
+  /*filter: brightness(0) invert(1); Deixa a logo branca */
+  display: flex;
+}
+
+.footer-slogan {
+  color: #b0b0b0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.footer-description {
+  color: #b0b0b0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Redes Sociais */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: #f5f5f5;
+}
+
+.social-link:hover {
+  background: #c49a6c;
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+/* Títulos */
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem;
+  display: flex;
+  align-self: center;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #c49a6c;
+  border-radius: 2px;
+}
+
+/* Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-links li a {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.footer-links li a:hover {
+  color: #c49a6c;
+  transform: translateX(5px);
+}
+
+/* Horários */
+.footer-hours {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-hours li {
+  display: flex;
+  justify-content: space-between;
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.footer-hours li span:first-child {
+  font-weight: 500;
+}
+
+.footer-hours li span:last-child {
+  color: #c49a6c;
+}
+
+/* Contato */
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-contact li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.footer-contact li svg {
+  flex-shrink: 0;
+  color: #c49a6c;
+}
+
+.footer-contact li span {
+  line-height: 1.4;
+}
+
+/* Grid de Cervejas (Parceiros) */
+.beers-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.beer-logo {
+  height: 70px;
+  width: auto;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  filter: brightness(0) invert(1);
+}
+
+.beer-logo:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer-bottom-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-bottom p {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-bottom-links a {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #c49a6c;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 3rem 1.5rem;
+  }
+
+  .footer-bottom-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+  }
+
+  .footer-col:last-child {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .footer-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-col {
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-contact li {
+    justify-content: center;
+  }
+
+  .footer-hours li {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .beers-grid {
+    gap: 2rem;
+  }
+
+  .beer-logo {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 2rem 1rem;
+  }
+
+  .footer-bottom-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .beers-grid {
+    gap: 1.5rem;
+  }
+
+  .beer-logo {
+    height: 50px;
+  }
+}

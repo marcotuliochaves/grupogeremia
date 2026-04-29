@@ -1,0 +1,179 @@
+/* pages/Historia.css */
+.historia-page-wrapper {
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Container principal */
+.historia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Banner */
+.historia-banner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.historia-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.historia-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.historia-banner-title {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f98409;
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+/* Logo central */
+.historia-logo-container {
+  margin-top: 4rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.historia-logo-wrapper {
+  position: absolute;
+  top: -1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5rem;
+  height: 5rem;
+}
+
+.historia-logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Conteúdo principal */
+.historia-content {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.historia-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.historia-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.625;
+  color: #374151;
+  text-align: center;
+  padding: 1.25rem 0;
+  margin: 0;
+}
+
+/* Galeria */
+.historia-gallery {
+  width: 100%;
+  background-color: #f9fafb;
+  margin-top: -2.5rem;
+  padding: 2rem 0;
+}
+
+.historia-gallery-grid {
+  max-width: 72rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  padding: 0 1.5rem;
+}
+
+.historia-gallery-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+}
+
+.historia-gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.historia-gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsividade */
+@media (min-width: 640px) {
+  .historia-banner {
+    height: 350px;
+  }
+  
+  .historia-banner-title {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .historia-title {
+    font-size: 2.5rem;
+  }
+  
+  .historia-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .historia-gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Animação suave para o título */
+.historia-title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.historia-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #f98409;
+  border-radius: 2px;
+}

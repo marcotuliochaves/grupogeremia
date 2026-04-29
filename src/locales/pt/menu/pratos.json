@@ -1,0 +1,98 @@
+{
+  "feijoada_dupla": {
+    "titulo": "Feijuca do Gerê – Duplo",
+    "descricao": "Feijoada leve, saborosa e acompanha arroz branco, couve, farofa na manteiga. SOMENTE AOS SÁBADOS."
+  },
+  "feijoada_individual": {
+    "titulo": "Feijuca do Gerê – Individual",
+    "descricao": "Feijoada leve, saborosa e acompanha arroz branco, couve, farofa na manteiga. SOMENTE AOS SÁBADOS."
+  },
+  "frango_parmegiana_duplo": {
+    "titulo": "Filé de frango à parmegiana – Duplo",
+    "descricao": "Filé de frango (400 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "frango_parmegiana_individual": {
+    "titulo": "Filé de frango à parmegiana – Individual",
+    "descricao": "Filé de frango (200 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "tilapia_parmegiana_duplo": {
+    "titulo": "Filé de tilápia à parmegiana – Duplo",
+    "descricao": "Filé de tilápia (400 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "tilapia_parmegiana_individual": {
+    "titulo": "Filé de tilápia à parmegiana – Individual",
+    "descricao": "Filé de tilápia (200 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "file_mignon_parmegiana_duplo": {
+    "titulo": "Filé mignon à parmegiana – Duplo",
+    "descricao": "Filé mignon (400 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "file_mignon_parmegiana_individual": {
+    "titulo": "Filé mignon à parmegiana – Individual",
+    "descricao": "Filé mignon (200 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa."
+  },
+  "file_mignon_canastra_duplo": {
+    "titulo": "Filé mignon ao molho canastra – Duplo",
+    "descricao": "Filé mignon (400 gramas), regado ao molho de queijo canastra. Acompanha arroz branco e batata palito."
+  },
+  "file_mignon_canastra_individual": {
+    "titulo": "Filé mignon ao molho canastra – Individual",
+    "descricao": "Filé mignon (200 gramas), regado ao molho de queijo canastra. Acompanha arroz branco e batata palito."
+  },
+  "file_mignon_mostarda_duplo": {
+    "titulo": "Filé mignon ao molho de mostarda – Duplo",
+    "descricao": ""
+  },
+  "file_mignon_mostarda_individual": {
+    "titulo": "Filé mignon ao molho de mostarda – Individual",
+    "descricao": ""
+  },
+  "file_mignon_zoiudo_duplo": {
+    "titulo": "Filé mignon com zoiúdo – Duplo",
+    "descricao": "Filé mignon (400 gramas), acompanhado de arroz, ovo frito, fios de couve na manteiga e tropeirinho."
+  },
+  "file_mignon_zoiudo_individual": {
+    "titulo": "Filé mignon com zoiúdo – Individual",
+    "descricao": "Filé mignon (200 gramas), acompanhado de arroz, ovo frito, fios de couve na manteiga e tropeirinho."
+  },
+  "picanha_mineira_duplo": {
+    "titulo": "Picanha à mineira – Duplo",
+    "descricao": "Picanha (400 gramas), acompanhado de arroz, fios de couve na manteiga e tropeirinho."
+  },
+  "picanha_mineira_individual": {
+    "titulo": "Picanha à mineira – Individual",
+    "descricao": "Picanha, acompanhado de arroz, fios de couve na manteiga e tropeirinho."
+  },
+  "medalhao_file_gere": {
+    "titulo": "Medalhão de filé do Gerê",
+    "descricao": "Filé mignon (200g), acompanha farofa de amêndoa laminada e purê de banana da terra."
+  },
+  "tilapia_grelhada_legumes": {
+    "titulo": "Tilápia grelhada com legumes na manteiga",
+    "descricao": "Tilápia grelhada (500g) na manteiga com cenoura, brócolis e couve-flor. Acompanha arroz branco."
+  },
+  "file_mignon_grelhado_legumes": {
+    "titulo": "Filé mignon grelhado com legumes na manteiga",
+    "descricao": "Filé mignon (500g) na manteiga com cenoura, brócolis e couve-flor. Acompanha arroz branco."
+  },
+  "arroz_bacalhau_duplo": {
+    "titulo": "Arroz com bacalhau – Duplo",
+    "descricao": "Arroz com bacalhau, azeitona preta, brócolis e fios de batata da casa."
+  },
+  "arroz_bacalhau_individual": {
+    "titulo": "Arroz com bacalhau – Individual",
+    "descricao": "Arroz com bacalhau, azeitona preta, brócolis e fios de batata da casa."
+  },
+  "file_mignon_kids": {
+    "titulo": "Filé mignon kids",
+    "descricao": "Filé mignon (120 grs), arroz, tomate e batata frita."
+  },
+  "frango_kids": {
+    "titulo": "Filé de frango kids",
+    "descricao": "Filé de frango (120 grs), arroz, tomate e batata frita."
+  },
+  "omelete_file_mignon": {
+    "titulo": "Omelete e filé mignon",
+    "descricao": "Prato proteico. Omelete, queijo e cebola acompanhado de filé mignon (200grs)."
+  }
+}

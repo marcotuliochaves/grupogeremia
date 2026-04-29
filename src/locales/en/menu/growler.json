@@ -1,0 +1,14 @@
+{
+  "growler_de_chopp_heineken": {
+    "titulo": "Heineken",
+    "descricao": "1 liter"
+  },
+  "growler_de_chopp_antarctica": {
+    "titulo": "Antarctica",
+    "descricao": "1 liter"
+  },
+  "growler_de_chopp_amstel": {
+    "titulo": "Amstel",
+    "descricao": "1 liter"
+  }
+}

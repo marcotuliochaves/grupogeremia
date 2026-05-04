@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  padding-top: 30px;
+  background: #FFF;
 }
+
 
 .cardapio-content {
   flex: 1;

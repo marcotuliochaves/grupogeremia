@@ -97,12 +97,23 @@ h2 {
   display: flex;
   background: #fff;
   border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid #e5e5e5;
+  overflow: hidden; /* importante */
+
+  /* remove border */
+  border: 1px solid #494d52;
+
   width: 100%;
   height: 20em;
   min-width: 550px;
   max-width: 550px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
 }
 
 .item-image {

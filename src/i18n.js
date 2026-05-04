@@ -57,6 +57,8 @@ import ptWhisky from "./locales/pt/menu/whisky.json"
 import enWhisky from "./locales/en/menu/whisky.json"
 import ptGrowler from "./locales/pt/menu/growler.json"
 import enGrowler from "./locales/en/menu/growler.json"
+import ptGaleria from "./locales/pt/galeria.json"
+import enGaleria from "./locales/en/galeria.json"
 
 const resources = {
   pt: {
@@ -65,6 +67,7 @@ const resources = {
     home: ptHome,
     historia: ptHistoria,
     contato: ptContato,
+    galeria: ptGaleria,
     delivery: ptDelivery,
     categorias: ptCategorias,
     menu: {
@@ -98,6 +101,7 @@ const resources = {
     home: enHome,
     historia: enHistoria,
     contato: enContato,
+    galeria: enGaleria,
     delivery: enDelivery,
     categorias: enCategorias,
     menu: {

@@ -11,6 +11,7 @@ import Delivery from './pages/Delivery';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import WhatsAppButton from './components/WhatsAppButton';
 import Cardapio from './pages/Cardapio';
+import Galeria from './pages/Galeria';
 // Componente que monitora mudanças de rota e rola para o topo
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/historia" element={<Historia />} />
           <Route path="/cardapio" element={<Cardapio />} />
+          <Route path="/galeria" element={<Galeria />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/delivery" element={<Delivery />} />
         </Routes>

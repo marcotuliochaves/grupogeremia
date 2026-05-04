@@ -96,29 +96,10 @@
     }
 }
 
-/* Tablets */
+/* Tablets + Mobile */
 @media (max-width: 992px) {
     .navbar {
         padding: 1em 3em;
-    }
-
-    .list {
-        gap: 8px;
-    }
-
-    .item {
-        margin-right: 0.8em;
-    }
-
-    .item a {
-        font-size: 0.9rem;
-    }
-}
-
-/* Mobile - ATIVAR HAMBÚRGUER */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 1em 2em;
     }
 
     .hamburger {
@@ -138,17 +119,11 @@
         margin-top: 10px;
     }
 
-    .mobile-lang .language-selector {
-        margin: 0 auto;
-        display: inline-block;
-    }
-
-    /* Menu mobile - sobrescreve o estilo base */
     .list {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 220px;  /* ← Ajuste aqui o tamanho que quiser */
+        width: 220px;
         height: auto;
         max-height: 80%;
         margin-top: 69px;
@@ -178,52 +153,5 @@
         font-size: 1rem;
         display: block;
         padding: 10px 0;
-    }
-
-    .logo {
-        flex: 1;
-        z-index: 1001;
-    }
-}
-
-/* Mobile pequeno */
-@media (max-width: 576px) {
-    .navbar {
-        padding: 0.8em 1em;
-    }
-
-    .logo img {
-        max-height: 40px;
-        width: auto;
-    }
-
-    .list {
-        width: 200px;  /* Menu ainda menor */
-        padding: 35px 12px;
-        gap: 0.8rem;
-    }
-
-    .item a {
-        font-size: 0.95rem;
-        padding: 8px 0;
-    }
-}
-
-/* Mobile muito pequeno */
-@media (max-width: 375px) {
-    .navbar {
-        padding: 0.6em 0.8em;
-    }
-
-    .list {
-        width: 180px;  /* Menu mínimo */
-        padding: 30px 10px;
-        gap: 0.6rem;
-        margin-top: 60px;
-    }
-
-    .item a {
-        font-size: 0.85rem;
-        padding: 6px 0;
     }
 }

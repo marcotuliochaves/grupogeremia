@@ -59,6 +59,8 @@ import ptGrowler from "./locales/pt/menu/growler.json"
 import enGrowler from "./locales/en/menu/growler.json"
 import ptGaleria from "./locales/pt/galeria.json"
 import enGaleria from "./locales/en/galeria.json"
+import ptOpcoes from "./locales/pt/menu/opcoes.json"
+import enOpcoes from "./locales/en/menu/opcoes.json"
 
 const resources = {
   pt: {
@@ -92,6 +94,7 @@ const resources = {
       ...ptDestilados,
       ...ptWhisky,
       ...ptGrowler,
+      ...ptOpcoes,
     },
   },
 
@@ -126,6 +129,7 @@ const resources = {
       ...enDestilados,
       ...enWhisky,
       ...enGrowler,
+      ...enOpcoes,
     },
   },
 };

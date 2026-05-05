@@ -1,75 +1,76 @@
 import "./style.css";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import ItemModal from "./ItemModal";
 
 const ItemCard = ({ item }) => {
   const { t, i18n } = useTranslation("menu");
+  const [open, setOpen] = useState(false);
+
+  const formatCurrency = (valor) => {
+    return valor.toLocaleString(
+      i18n.language === "en" ? "en-US" : "pt-BR",
+      {
+        style: "currency",
+        currency: "BRL",
+      }
+    );
+  };
 
   const formatPrice = (preco) => {
-    // 🔹 preço único
+    // 🔹 preço simples
     if (typeof preco === "number") {
-      return preco.toLocaleString(
-        i18n.language === "en" ? "en-US" : "pt-BR",
-        {
-          style: "currency",
-          currency: "BRL",
-        }
+      return <span>{formatCurrency(preco)}</span>;
+    }
+
+    // 🔹 múltiplas opções → mostra "a partir de"
+    if (typeof preco === "object" && preco !== null) {
+      const valores = Object.values(preco);
+      const menor = Math.min(...valores);
+
+      return (
+        <span>
+          {t("a_partir_de", { defaultValue: "A partir de" })}{" "}
+          {formatCurrency(menor)}
+        </span>
       );
     }
 
-    // 🔹 múltiplos preços (qualquer quantidade)
-    if (typeof preco === "object" && preco !== null) {
-      const labels = {
-        pt: {
-          inteira: "Inteira",
-          meia: "Meia",
-        },
-        en: {
-          inteira: "Full",
-          meia: "Half",
-        },
-      };
-
-      return Object.entries(preco).map(([tipo, valor]) => {
-        // fallback inteligente
-        const label =
-          labels[i18n.language]?.[tipo] ||
-          tipo.replaceAll("_", " ");
-
-        return (
-          <div key={tipo} className="price-option">
-            <strong>{label}:</strong>{" "}
-            {valor.toLocaleString(
-              i18n.language === "en" ? "en-US" : "pt-BR",
-              {
-                style: "currency",
-                currency: "BRL",
-              }
-            )}
-          </div>
-        );
-      });
-    }
-
-    return "—";
+    return <span>—</span>;
   };
 
   return (
-    <article className="item-card">
-      <div className="item-image">
-        <img src={item.imagem} alt={t(`${item.id}.titulo`)} />
-      </div>
-
-      <div className="item-content">
-        <div className="item-text">
-          <h3>{t(`${item.id}.titulo`)}</h3>
-          <p>{t(`${item.id}.descricao`)}</p>
+    <>
+      {/* 🔥 CARD CLICÁVEL */}
+      <article
+        className="item-card"
+        onClick={() => setOpen(true)}
+        style={{ cursor: "pointer" }}
+      >
+        <div className="item-image">
+          <img src={item.imagem} alt={t(`${item.id}.titulo`)} />
         </div>
 
-        <div className="item-price">
-          {formatPrice(item.preco)}
+        <div className="item-content">
+          <div className="item-text">
+            <h3>{t(`${item.id}.titulo`)}</h3>
+            <p>{t(`${item.id}.descricao`)}</p>
+          </div>
+
+          <div className="item-price">
+            {formatPrice(item.preco)}
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+
+      {/* 🔥 MODAL */}
+      {open && (
+        <ItemModal
+          item={item}
+          onClose={() => setOpen(false)}
+        />
+      )}
+    </>
   );
 };
 

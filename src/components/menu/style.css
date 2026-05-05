@@ -151,6 +151,33 @@ h2 {
   width: 100%;
 }
 
+.price-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  width: 100%; /* 🔥 ocupa tudo */
+}
+
+.price-option {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start; /* 🔥 importante pra textos grandes */
+  gap: 12px;
+}
+
+.option-name {
+  color: #ff8c00;
+  line-height: 1.3;
+  word-break: break-word; /* 🔥 evita quebra feia */
+}
+
+.option-price {
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: right;
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
@@ -181,7 +208,7 @@ h2 {
   .item-price {
     margin-top: 10px;
     text-align: right;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .subtabs {

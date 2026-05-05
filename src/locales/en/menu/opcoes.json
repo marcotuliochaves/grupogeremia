@@ -1,0 +1,15 @@
+{
+  "cachaca": "Cachaça",
+  "vodka_nacional": "Local Vodka",
+  "vodka_importada": "Imported Vodka",
+  "gin_nacional": "Local Gin",
+  "gin_importado": "Imported Gin",
+
+  "limao": "Lime",
+  "morango": "Strawberry",
+  "abacaxi": "Pineapple",
+  "kiwi": "Kiwi",
+  "morango_e_maracuja": "Strawberry & Passion Fruit",
+  "limao_e_maracuja": "Lime & Passion Fruit",
+  "kiwi_e_morango": "Kiwi & Strawberry"
+}

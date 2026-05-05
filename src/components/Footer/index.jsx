@@ -1,6 +1,7 @@
 // components/Footer/index.jsx
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import logo from "../../assets/logo.svg";
 import "./Footer.css";
 
 function Footer() {
@@ -13,7 +14,7 @@ function Footer() {
                 {/* Coluna 1 - Logo e Descrição */}
                 <div className="footer-col">
                     <div className="footer-logo">
-                        <img src="/src/assets/logo.svg" alt="GeremiaBar" />
+                        <img src={logo} alt="GeremiaBar" />
                     </div>
                     <p className="footer-slogan">
                         {t('slogan') || "Aqui a amizade vem de bandeja!"}

@@ -6,34 +6,24 @@ const ItemModal = ({ item, onClose }) => {
   const { t, i18n } = useTranslation("menu");
 
   const [selected, setSelected] = useState(
-    typeof item.preco === "object"
-      ? Object.keys(item.preco)[0]
-      : null
+    typeof item.preco === "object" ? Object.keys(item.preco)[0] : null,
   );
 
   const formatCurrency = (valor) => {
-    return valor.toLocaleString(
-      i18n.language === "en" ? "en-US" : "pt-BR",
-      {
-        style: "currency",
-        currency: "BRL",
-      }
-    );
+    return valor.toLocaleString(i18n.language === "en" ? "en-US" : "pt-BR", {
+      style: "currency",
+      currency: "BRL",
+    });
   };
 
   const price =
-    typeof item.preco === "number"
-      ? item.preco
-      : item.preco[selected];
+    typeof item.preco === "number" ? item.preco : item.preco[selected];
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div
-        className="modal-content"
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose}>
-          <span className="close-icon"/>
+          <span className="close-icon" />
         </button>
 
         <img
@@ -56,9 +46,7 @@ const ItemModal = ({ item, onClose }) => {
               return (
                 <button
                   key={key}
-                  className={`option-btn ${
-                    selected === key ? "active" : ""
-                  }`}
+                  className={`option-btn ${selected === key ? "active" : ""}`}
                   onClick={() => setSelected(key)}
                 >
                   <span>{label}</span>
@@ -68,11 +56,6 @@ const ItemModal = ({ item, onClose }) => {
             })}
           </div>
         )}
-
-        {/* 🔥 preço final */}
-        <div className="modal-footer">
-          <strong>{formatCurrency(price)}</strong>
-        </div>
       </div>
     </div>
   );

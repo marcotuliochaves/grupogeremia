@@ -197,8 +197,8 @@ h2 {
 
   .item-card {
     height: 17em;
-    min-width: 400px; /* ← LARGURA MÍNIMA FIXA */
-    max-width: 400px; /* ← LARGURA MÁXIMA FIXA (igual à mínima) */
+    min-width: 380px; /* ← LARGURA MÍNIMA FIXA */
+    max-width: 380px; /* ← LARGURA MÁXIMA FIXA (igual à mínima) */
   }
 
   .item-image {

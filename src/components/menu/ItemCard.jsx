@@ -18,12 +18,12 @@ const ItemCard = ({ item }) => {
   };
 
   const formatPrice = (preco) => {
-    // 🔹 preço simples
+    // preço simples
     if (typeof preco === "number") {
       return <span>{formatCurrency(preco)}</span>;
     }
 
-    // 🔹 múltiplas opções → mostra "a partir de"
+    // múltiplas opções → mostra "a partir de"
     if (typeof preco === "object" && preco !== null) {
       const valores = Object.values(preco);
       const menor = Math.min(...valores);
@@ -41,7 +41,7 @@ const ItemCard = ({ item }) => {
 
   return (
     <>
-      {/* 🔥 CARD CLICÁVEL */}
+      {/* CARD CLICÁVEL */}
       <article
         className="item-card"
         onClick={() => setOpen(true)}
@@ -63,7 +63,7 @@ const ItemCard = ({ item }) => {
         </div>
       </article>
 
-      {/* 🔥 MODAL */}
+      {/* MODAL */}
       {open && (
         <ItemModal
           item={item}

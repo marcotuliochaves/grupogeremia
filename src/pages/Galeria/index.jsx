@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./galeria.css";
 
 const Galeria = () => {
+  const { t } = useTranslation("galeria");
+
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <div className="galeria-page-wrapper">
       <main className="galeria-container">
-        <h1 className="galeria-title">Galeria</h1>
+        <h1 className="galeria-title">{t("titulo")}</h1>
 
         <div className="galeria-grid">
           {images.map((img, index) => (
@@ -18,7 +21,7 @@ const Galeria = () => {
             >
               <img src={img} alt={`Foto ${index + 1}`} />
               <div className="overlay">
-                <span>Ver imagem</span>
+                <span>{t("verImagem")}</span>
               </div>
             </div>
           ))}

@@ -61,51 +61,53 @@ function Header() {
 
   return (
     <nav className="navbar">
-      <div className="logo">
-        <Link to="/" onClick={closeMenu}>
-          <img src={logo} alt="GeremiaBar" />
-        </Link>
-      </div>
+      <div className="navbar-container">
+        <div className="logo">
+          <Link to="/" onClick={closeMenu}>
+            <img src={logo} alt="GeremiaBar" />
+          </Link>
+        </div>
 
-      {/* Botão Hambúrguer */}
-      <div
-        ref={hamburgerRef}
-        className={`hamburger ${menuOpen ? "active" : ""}`}
-        onClick={toggleMenu}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+        {/* Botão Hambúrguer */}
+        <div
+          ref={hamburgerRef}
+          className={`hamburger ${menuOpen ? "active" : ""}`}
+          onClick={toggleMenu}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-      {/* Menu de navegação */}
-      <ul ref={menuRef} className={`list ${menuOpen ? "active" : ""}`}>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/">{t("home")}</Link>
-        </li>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/historia">{t("history")}</Link>
-        </li>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/cardapio">{t("menu")}</Link>
-        </li>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/galeria">{t("gallery")}</Link>
-        </li>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/delivery">{t("delivery")}</Link>
-        </li>
-        <li className="item" onClick={closeMenu}>
-          <Link to="/contato">{t("contact")}</Link>
-        </li>
-        <li className="item mobile-lang">
+        {/* Menu de navegação */}
+        <ul ref={menuRef} className={`list ${menuOpen ? "active" : ""}`}>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/">{t("home")}</Link>
+          </li>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/historia">{t("history")}</Link>
+          </li>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/cardapio">{t("menu")}</Link>
+          </li>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/galeria">{t("gallery")}</Link>
+          </li>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/delivery">{t("delivery")}</Link>
+          </li>
+          <li className="item" onClick={closeMenu}>
+            <Link to="/contato">{t("contact")}</Link>
+          </li>
+          <li className="item mobile-lang">
+            <LanguageSelector />
+          </li>
+        </ul>
+
+        {/* LanguageSelector para desktop */}
+        <div className="lang-selector desktop-lang">
           <LanguageSelector />
-        </li>
-      </ul>
-
-      {/* LanguageSelector para desktop */}
-      <div className="lang-selector desktop-lang">
-        <LanguageSelector />
+        </div>
       </div>
     </nav>
   );

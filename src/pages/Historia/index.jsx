@@ -29,7 +29,7 @@ function Historia() {
         <div className="historia-banner">
           <img
             src="/history/frente.webp"
-            alt={t("historia.bannerAlt")}
+            alt={t("bannerAlt")}
             className="historia-banner-image"
           />
           <div className="historia-banner-overlay"></div>

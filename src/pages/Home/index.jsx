@@ -56,18 +56,18 @@ function Home() {
             <p>{t("description2")}</p>
             <p>{t("description3")}</p>
           </div>
-         <Link to="/historia">
+          <Link to="/historia">
             <button className="history-button">{t("button")}</button>
           </Link>
         </div>
       </div>
 
       {/* Menu/Cardapio */}
+      {/* Menu/Cardapio */}
       <Link to="/cardapio" className="menu-banner">
         <img src="/home/picanha-geremia.webp" alt="Ver cardápio" />
-        <div className="overlay">
-          <h2>{t("menu")}</h2>
-        </div>
+
+        <h2 className="h2card">{t("menu")}</h2>
       </Link>
 
       {/* Galeria */}
@@ -89,9 +89,7 @@ function Home() {
               {t("galeryDescription") ||
                 "Há mais de 10 anos, o Gerê Bar é referência em comida mineira e os melhores petiscos da região. Um lugar onde tradição, sabor e boas memórias se encontram para criar momentos inesquecíveis."}
             </p>
-            <span className="split-link">
-              {t("galery") || "Ver Galeria"}
-            </span>
+            <span className="split-link">{t("galery") || "Ver Galeria"}</span>
           </div>
         </Link>
       </div>

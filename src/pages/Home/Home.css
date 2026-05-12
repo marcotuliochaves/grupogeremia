@@ -105,6 +105,22 @@ p {
     font-size: 2rem;
 }
 
+.h2card {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFA500;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
 /* Componente split com foto e descrição  */
 .split-featured-container {
     display: flex;

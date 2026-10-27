@@ -11,7 +11,7 @@ export const souvenir = [
   },
   {
     id: "tulipa_geremia",
-    preco: 20.00,
+    preco: 40.00,
     imagem: "/souvenir/souvenir-tulipa.webp",
   },
 ];

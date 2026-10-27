@@ -1,12 +1,12 @@
 export const pratosPorcoes = [
   {
     id: "pastel_carne_queijo",
-    preco: 56.00,
+    preco: 60.00,
     imagem: "/porcoes/pastel-carne-queijo.webp",
   },
   {
     id: "pastel_pernil",
-    preco: 56.00,
+    preco: 60.00,
     imagem: "/porcoes/pastel-pernil.webp",
   },
   {
@@ -36,7 +36,7 @@ export const pratosPorcoes = [
   },
   {
     id: "torresmo_inteira",
-    preco: 85.00,
+    preco: 90.00,
     imagem: "/porcoes/torresmo-inteiro.webp",
   },
   {
@@ -46,47 +46,47 @@ export const pratosPorcoes = [
   },
   {
     id: "maia_fraldinha",
-    preco: 90.00,
+    preco: 95.00,
     imagem: "/porcoes/maia.webp",
   },
   {
     id: "mignon_parmegiana_palito",
-    preco: 108.00,
+    preco: 120.00,
     imagem: "/null.webp",
   },
   {
     id: "fraldinha_angus",
-    preco: 110.00,
+    preco: 120.00,
     imagem: "/porcoes/fraldinha-angus.webp",
   },
   {
     id: "file_gorgonzola",
-    preco: 115.00,
+    preco: 125.00,
     imagem: "/porcoes/file-gorgonzola.webp",
   },
   {
     id: "file_canastra_porcao",
-    preco: 115.00,
+    preco: 120.00,
     imagem: "/porcoes/file-canastra.webp",
   },
   {
     id: "file_cerveja_preta",
-    preco: 105.00,
+    preco: 110.00,
     imagem: "/porcoes/file-cerveja-preta.webp",
   },
   {
     id: "picanha_geremia",
-    preco: 150.00,
+    preco: 160.00,
     imagem: "/porcoes/picanha-geremia.webp",
   },
   {
     id: "file_com_fritas",
-    preco: 100.00,
+    preco: 105.00,
     imagem: "/porcoes/file-mignon-com-fritas.webp",
   },
   {
     id: "file_com_fritas_catupiry",
-    preco: 105.00,
+    preco: 110.00,
     imagem: "/null.webp",
   },
   {
@@ -96,17 +96,17 @@ export const pratosPorcoes = [
   },
   {
     id: "figado_inteira",
-    preco: 65.00,
+    preco: 70.00,
     imagem: "/porcoes/figado-com-jilo.webp",
   },
   {
     id: "figado_meia",
-    preco: 38.00,
+    preco: 40.00,
     imagem: "/null.webp",
   },
   {
     id: "isca_tilapia_inteira",
-    preco: 78.00,
+    preco: 80.00,
     imagem: "/porcoes/isca-tilapia-inteira.webp",
   },
   {
@@ -131,7 +131,7 @@ export const pratosPorcoes = [
   },
   {
     id: "bolinho_mandioca",
-    preco: 65.00,
+    preco: 70.00,
     imagem: "/porcoes/bolinho-mandioca-com-carne-seca.webp",
   },
   {
@@ -141,7 +141,7 @@ export const pratosPorcoes = [
   },
   {
     id: "batata_palito",
-    preco: 36.00,
+    preco: 38.00,
     imagem: "/porcoes/batata-palito.webp",
   },
   {
@@ -151,27 +151,27 @@ export const pratosPorcoes = [
   },
   {
     id: "batata_chips",
-    preco: 38.00,
+    preco: 40.00,
     imagem: "/null.webp",
   },
   {
     id: "moelinha",
-    preco: 70.00,
+    preco: 75.00,
     imagem: "/porcoes/moelinha.webp",
   },
   {
     id: "frango_passarinho",
-    preco: 65.00,
+    preco: 70.00,
     imagem: "/porcoes/frango-a-passarinho.webp",
   },
   {
     id: "ceviche_tilapia_inteira",
-    preco: 75.00,
+    preco: 80.00,
     imagem: "/porcoes/ceviche-tilapia.webp",
   },
   {
     id: "ceviche_tilapia_meia",
-    preco: 40.00,
+    preco: 45.00,
     imagem: "/null.webp",
   },
 ];
@@ -179,7 +179,7 @@ export const pratosPorcoes = [
 export const pratosPrincipais = [
   {
     id: "feijoada_dupla",
-      preco: 120.00,
+      preco: 129.00,
       imagem: "/pratos/feijoada.webp",
   },
   {
@@ -199,7 +199,7 @@ export const pratosPrincipais = [
   },
   {
     id: "tilapia_parmegiana_duplo",
-    preco: 110.00,
+    preco: 120.00,
     imagem: "/pratos/parmegiana-dupla.webp",
   },
   {
@@ -209,7 +209,7 @@ export const pratosPrincipais = [
   },
   {
     id: "file_mignon_parmegiana_duplo",
-    preco: 140.00,
+    preco: 145.00,
     imagem: "/pratos/parmegiana-dupla.webp",
   },
   {
@@ -219,7 +219,7 @@ export const pratosPrincipais = [
   },
   {
     id: "file_mignon_canastra_duplo",
-    preco: 120.00,
+    preco: 129.00,
     imagem: "/null.webp",
   },
   {
@@ -229,7 +229,7 @@ export const pratosPrincipais = [
   },
   {
     id: "file_mignon_mostarda_duplo",
-    preco: 120.00,
+    preco: 129.00,
     imagem: "/null.webp",
   },
   {
@@ -239,7 +239,7 @@ export const pratosPrincipais = [
   },
   {
     id: "file_mignon_zoiudo_duplo",
-    preco: 120.00,
+    preco: 129.00,
     imagem: "/null.webp",
   },
   {
@@ -249,7 +249,7 @@ export const pratosPrincipais = [
   },
   { 
     id: "picanha_mineira_duplo",
-    preco: 145.00,
+    preco: 160.00,
     imagem: "/null.webp",
   },
   {
@@ -259,18 +259,13 @@ export const pratosPrincipais = [
   },
   {
     id: "medalhao_file_gere",
-    preco: 70.00,
+    preco: 75.00,
     imagem: "/pratos/medalhao-de-file.webp",
   },
   {
     id: "tilapia_grelhada_legumes",
-    preco: 115.00,
+    preco: 120.00,
     imagem: "/pratos/tilapia-grelhada.webp",
-  },
-  {
-    id: "file_mignon_grelhado_legumes",
-    preco: 125.00,
-    imagem: "/null.webp",
   },
   {
     id: "arroz_bacalhau_duplo",
@@ -294,7 +289,7 @@ export const pratosPrincipais = [
   },
   {
     id: "omelete_file_mignon",
-    preco: 60.00,
+    preco: 55.00,
     imagem: "/pratos/omelete-e-file-mignon.webp",
   },
 ];
@@ -356,8 +351,8 @@ export const saladinha = [
   {
     "id": "saladinha_de_jilo",
     "preco": {
-      "inteira": 30.00,
-      "meia": 18.00
+      "inteira": 35.00,
+      "meia": 20.00
     },
     "imagem": "/saladinha/saladinha-de-jilo.webp"
   },
@@ -368,32 +363,32 @@ export const saladinha = [
   },
   {
     "id": "petisqueira_de_frios_inteira",
-    "preco": 90.00,
+    "preco": 100.00,
     "imagem": "/saladinha/petisqueira-com-frios-inteira.webp"
   },
   {
     "id": "petisqueira_de_frios_meia",
-    "preco": 50.00,
+    "preco": 60.00,
     "imagem": "/saladinha/petisqueira-com-frios-meia.webp"
   },
   {
     "id": "tomate_com_queijo_mucarela",
-    "preco": 28.00,
+    "preco": 30.00,
     "imagem": "/saladinha/tomate-com-queijo.webp"
   },
   {
     "id": "tomate_com_palmito",
-    "preco": 45.00,
+    "preco": 50.00,
     "imagem": "/saladinha/palmito-com-tomate.webp"
   },
   {
     "id": "salaminho_com_palmito",
-    "preco": 48.00,
+    "preco": 55.00,
     "imagem": "/saladinha/salame-e-palmito.webp"
   },
   {
     "id": "salaminho",
-    "preco": 32.00,
+    "preco": 35.00,
     "imagem": "/saladinha/salaminho.webp"
   },
   {
@@ -415,8 +410,8 @@ export const vegetarianos = [
   {
     id: "saladinha_de_jilo",
     preco: {
-      inteira: 30.00,
-      meia: 18.00
+      inteira: 35.00,
+      meia: 20.00
     },
     imagem: "/saladinha/saladinha-de-jilo.webp"
   },
@@ -427,12 +422,12 @@ export const vegetarianos = [
   },
   {
     id: "tomate_com_queijo_mucarela",
-    preco: 28.00,
+    preco: 30.00,
     imagem: "/saladinha/tomate-com-queijo.webp"
   },
   {
     id: "tomate_com_palmito",
-    preco: 45.00,
+    preco: 50.00,
     imagem: "/saladinha/palmito-com-tomate.webp"
   },
   {
@@ -458,7 +453,7 @@ export const vegetarianos = [
 export const sanduiche = [
   {
     id: "sandubao",
-    preco:  45.00,
+    preco:  50.00,
     imagem: "/sandubao/sanduiche-de-file-mignon.webp",
   },
 ];

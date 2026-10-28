@@ -1,4 +1,8 @@
-/* components/Footer/Footer.css */
+
+/* ==================================================
+   1. RODAPÉ PRINCIPAL
+================================================== */
+
 .footer {
   background: linear-gradient(135deg, #494d52 0%, #0a0a0a 100%);
   color: #f5f5f5;
@@ -15,27 +19,17 @@
   gap: 1.5rem;
 }
 
-/* Colunas */
 .footer-col {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* Faz a 5ª coluna (última) ocupar a largura inteira */
-.footer-col:last-child {
-  grid-column: 1 / -1;
-  text-align: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
 
-/* Centraliza o título da última coluna */
-.footer-col:last-child .footer-title::after {
-  left: 50%;
-  transform: translateX(-50%);
-}
+/* ==================================================
+   2. LOGO PRINCIPAL E DESCRIÇÕES
+================================================== */
 
-/* Logo */
 .footer-logo {
   display: flex;
   align-items: center;
@@ -45,8 +39,7 @@
 .footer-logo img {
   max-height: 60px;
   width: auto;
-  /*filter: brightness(0) invert(1); Deixa a logo branca */
-  display: flex;
+  display: block;
 }
 
 .footer-slogan {
@@ -64,7 +57,36 @@
   text-align: center;
 }
 
-/* Redes Sociais */
+
+/* ==================================================
+   3. TÍTULOS DAS COLUNAS
+================================================== */
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem;
+  display: flex;
+  align-self: center;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #c49a6c;
+  border-radius: 2px;
+}
+
+
+/* ==================================================
+   4. REDES SOCIAIS
+================================================== */
+
 .footer-social {
   display: flex;
   gap: 1rem;
@@ -90,31 +112,15 @@
   color: #fff;
 }
 
-/* Títulos */
-.footer-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 0.75rem;
-  display: flex;
-  align-self: center;
-}
 
-.footer-title::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 40px;
-  height: 3px;
-  background: #c49a6c;
-  border-radius: 2px;
-}
+/* ==================================================
+   5. LINKS RÁPIDOS
+================================================== */
 
-/* Links */
 .footer-links {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -134,10 +140,15 @@
   transform: translateX(5px);
 }
 
-/* Horários */
+
+/* ==================================================
+   6. HORÁRIOS DE FUNCIONAMENTO
+================================================== */
+
 .footer-hours {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -146,6 +157,7 @@
 .footer-hours li {
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
   color: #b0b0b0;
   font-size: 0.9rem;
 }
@@ -158,10 +170,15 @@
   color: #c49a6c;
 }
 
-/* Contato */
+
+/* ==================================================
+   7. CONTATO
+================================================== */
+
 .footer-contact {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -182,39 +199,157 @@
 
 .footer-contact li span {
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
-/* Grid de Cervejas (Parceiros) */
-.beers-grid {
-  display: flex;
-  justify-content: center;
+
+/* ==================================================
+   8. GRUPO GEREMIA — SEÇÃO PRINCIPAL
+================================================== */
+
+.footer-group-brands {
+  grid-column: 1 / -1;
   align-items: center;
-  gap: 5rem;
-  flex-wrap: wrap;
-  max-width: 600px;
+  text-align: center;
+  margin-top: 0.75rem;
+  padding: 2rem 1rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  position: relative;
+  isolation: isolate;
+}
+
+/* Brilho discreto ao fundo */
+.footer-group-brands::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(850px, 100%);
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Título Grupo Geremia */
+.footer-group-brands .footer-title {
+  align-self: center;
+  font-size: 1.45rem;
+  letter-spacing: 0.4px;
+  padding-bottom: 0.85rem;
+  margin: 0;
+}
+
+.footer-group-brands .footer-title::after {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55px;
+  height: 3px;
+}
+
+/* Texto abaixo do título */
+.footer-group-description {
+  color: #bdbdbd;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: -0.25rem 0 1rem;
+}
+
+/* Container das marcas */
+.footer-beers {
+  width: 100%;
+}
+
+
+/* ==================================================
+   9. GRUPO GEREMIA — CARDS NO COMPUTADOR
+================================================== */
+
+.beers-grid.group-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.beer-logo {
-  height: 70px;
-  width: auto;
-  opacity: 0.8;
-  transition: all 0.3s ease;
-  filter: brightness(0) invert(1);
+/* Card individual */
+.beers-grid.group-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-width: 0;
+  padding: 0.85rem 0.6rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-.beer-logo:hover {
+/* Efeito ao passar o mouse */
+.beers-grid.group-grid a:hover {
+  transform: translateY(-5px);
+  background: rgba(196, 154, 108, 0.09);
+  border-color: rgba(196, 154, 108, 0.55);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Logos */
+.beers-grid.group-grid .beer-logo {
+  display: block;
+  width: 100%;
+  max-width: 155px;
+  height: 145px;
+  object-fit: contain;
   opacity: 1;
-  transform: translateY(-3px);
+  filter: none;
+  transition: transform 0.25s ease;
 }
 
-/* Bottom Bar */
+.beers-grid.group-grid a:hover .beer-logo {
+  transform: scale(1.04);
+}
+
+/* Nome das marcas */
+.beers-grid.group-grid a span {
+  color: #e4e0da;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  transition: color 0.25s ease;
+}
+
+.beers-grid.group-grid a:hover span {
+  color: #d8b48c;
+}
+
+/* Foco pelo teclado */
+.beers-grid.group-grid a:focus-visible {
+  outline: 2px solid #c49a6c;
+  outline-offset: 4px;
+}
+
+
+/* ==================================================
+   10. RODAPÉ INFERIOR — DIREITOS AUTORAIS
+================================================== */
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1rem 0;
+  padding: 1rem;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
+  text-align: center;
 }
 
 .footer-bottom-container {
@@ -231,6 +366,7 @@
 .footer-bottom p {
   color: #888;
   font-size: 0.85rem;
+  margin: 0;
 }
 
 .footer-bottom-links {
@@ -249,33 +385,23 @@
   color: #c49a6c;
 }
 
-/* Responsividade */
+
+/* ==================================================
+   11. TABLETS — ATÉ 768 PX
+================================================== */
+
 @media (max-width: 768px) {
   .footer-container {
     padding: 3rem 1.5rem;
   }
 
-  .footer-bottom-container {
-    flex-direction: column;
+  .footer-col {
     text-align: center;
-  }
-
-  .footer-bottom-links {
-    justify-content: center;
-  }
-
-  .footer-col:last-child {
-    margin-top: 0.5rem;
-    padding-top: 1rem;
   }
 
   .footer-title::after {
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  .footer-col {
-    text-align: center;
   }
 
   .footer-social {
@@ -292,18 +418,146 @@
     gap: 0.3rem;
   }
 
-  .beers-grid {
-    gap: 2rem;
+  /* Seção Grupo Geremia */
+  .footer-group-brands {
+    padding: 1.5rem 1rem 1rem;
   }
 
-  .beer-logo {
-    height: 40px;
+  .footer-group-brands .footer-title {
+    font-size: 1.3rem;
+  }
+
+  .footer-group-description {
+    margin-bottom: 1.25rem;
+  }
+
+  /* Lista vertical estilo Linktree */
+  .beers-grid.group-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+
+    width: 100%;
+    max-width: 400px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  /* Botões horizontais */
+  .beers-grid.group-grid a {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 62px;
+    padding: 0.5rem 3rem;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(196, 154, 108, 0.55);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    gap: 0;
+    transition:
+      background 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  /* Logo circular à esquerda */
+  .beers-grid.group-grid .beer-logo {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 48px;
+    height: 48px;
+    max-width: none;
+    padding: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 1;
+    filter: none;
+  }
+
+  /* Nome centralizado */
+  .beers-grid.group-grid a span {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    color: #f1e7d9;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  /* Três pontinhos decorativos */
+  .beers-grid.group-grid a::after {
+    content: "⋮";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #c49a6c;
+    font-size: 1.35rem;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  /* Interação */
+  .beers-grid.group-grid a:hover,
+  .beers-grid.group-grid a:active {
+    transform: translateY(-1px);
+    background: rgba(196, 154, 108, 0.13);
+    border-color: #c49a6c;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Mantém a logo na posição correta no hover */
+  .beers-grid.group-grid a:hover .beer-logo {
+    transform: translateY(-50%);
+  }
+
+  .beers-grid.group-grid a:hover span {
+    color: #fff;
+  }
+
+  /* Rodapé inferior */
+  .footer-bottom-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
   }
 }
+
+
+/* ==================================================
+   12. CELULARES — ATÉ 480 PX
+================================================== */
 
 @media (max-width: 480px) {
   .footer-container {
     padding: 2rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom-container {
+    padding: 0 1rem;
   }
 
   .footer-bottom-links {
@@ -311,11 +565,89 @@
     gap: 0.75rem;
   }
 
-  .beers-grid {
-    gap: 1.5rem;
+  /* Mais espaço nas laterais da lista */
+  .footer-group-brands {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
-  .beer-logo {
-    height: 50px;
+  .beers-grid.group-grid {
+    max-width: 360px;
+    padding: 0 8px;
+    gap: 0.75rem;
+  }
+
+  .beers-grid.group-grid a {
+    min-height: 60px;
+    padding-left: 2.8rem;
+    padding-right: 2.5rem;
+  }
+
+  .beers-grid.group-grid .beer-logo {
+    left: 7px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .beers-grid.group-grid a span {
+    font-size: 0.88rem;
+  }
+
+  .beers-grid.group-grid a::after {
+    right: 12px;
+  }
+}
+
+
+/* ==================================================
+   13. CELULARES ESTREITOS — ATÉ 380 PX
+================================================== */
+
+@media (max-width: 380px) {
+  .footer-group-brands {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .beers-grid.group-grid {
+    max-width: 320px;
+    padding: 0 6px;
+    gap: 0.65rem;
+  }
+
+  .beers-grid.group-grid a {
+    min-height: 58px;
+    padding-left: 2.6rem;
+    padding-right: 2.3rem;
+  }
+
+  .beers-grid.group-grid .beer-logo {
+    left: 7px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .beers-grid.group-grid a span {
+    font-size: 0.82rem;
+  }
+
+  .beers-grid.group-grid a::after {
+    right: 10px;
+  }
+}
+
+
+/* ==================================================
+   14. ACESSIBILIDADE — REDUZIR ANIMAÇÕES
+================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .social-link,
+  .footer-links li a,
+  .footer-bottom-links a,
+  .beers-grid.group-grid a,
+  .beers-grid.group-grid .beer-logo,
+  .beers-grid.group-grid a span {
+    transition: none;
   }
 }

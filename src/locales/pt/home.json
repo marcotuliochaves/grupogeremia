@@ -4,8 +4,10 @@
   "description2": "Venha curtir e aproveitar os melhores momentos de sua vida em nosso bar.",
   "description3": "Venha para o Gerê! Sinta-se em casa!",
   "button": "Ver História",
-  "menu": "Ver Cardápio",
-  "galery": "VER GALERIA",
+  "menuTitle": "Nosso Cardápio",
+  "menuDescription": "Confira nossas opções de comidas, petiscos e bebidas, preparadas para tornar sua experiência no Gerê ainda melhor.",
+  "menu": "Ver cardápio",
+  "galery": "Ver Galeria",
   "galeryDescription": "Acesse nossa galeria de fotos.",
   "galeryTitle": "Fique por dentro do que rolou no Gerê."
 }

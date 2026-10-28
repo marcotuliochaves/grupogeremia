@@ -153,6 +153,28 @@ p {
     transform: scale(1.05);
 }
 
+/* Lado direito - Foto */
+.split-right {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    min-height: 300px;
+}
+
+.split-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.split-right:hover .split-image {
+    transform: scale(1.05);
+}
+
 /* Overlay na imagem */
 .image-overlay {
     position: absolute;
@@ -320,11 +342,12 @@ p {
         font-size: 1.5rem;
     }
     
+    
     /* Split container - CORREÇÃO PRINCIPAL */
     .split-featured-container {
         flex-direction: column; /* Empilha os elementos */
         min-height: auto; /* Altura automática */
-        margin: 1.5rem 0;
+        margin: 1.8rem 0;
     }
     
     .split-left {
@@ -430,6 +453,20 @@ p {
     .happy-hour-container {
         margin-top: 120px; 
     }
+}
+
+/* Cardápio: imagem à direita somente no computador */
+@media (min-width: 769px) {
+  .menu-featured {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Celular e tablet: imagem primeiro e texto depois */
+@media (max-width: 768px) {
+  .menu-featured {
+    flex-direction: column;
+  }
 }
 
 /* ============================================ */

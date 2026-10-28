@@ -62,17 +62,35 @@ function Home() {
         </div>
       </div>
 
-      {/* Menu/Cardapio */}
-      {/* Menu/Cardapio */}
-      <Link to="/cardapio" className="menu-banner">
-        <img src="/home/picanha-geremia.webp" alt="Ver cardápio" />
+      {/* Menu/Cardápio */}
+      <div className="split-featured-container menu-featured">
+        <Link to="/cardapio" className="split-left">
+          <img
+            src="/home/cardapio.webp"
+            alt="Cardápio do Geremia Bar"
+            className="split-image"
+          />
+        </Link>
 
-        <h2 className="h2card">{t("menu")}</h2>
-      </Link>
+        <Link to="/cardapio" className="split-right">
+          <div className="split-content">
+            <h3 className="split-title">
+              {t("menuTitle") || "Nosso Cardápio"}
+            </h3>
+
+            <p className="split-description">
+              {t("menuDescription") ||
+                "Confira nossas opções de comidas, petiscos e bebidas, preparadas para tornar sua experiência no Gerê ainda melhor."}
+            </p>
+
+            <span className="split-link">{t("menu") || "Ver Cardápio"}</span>
+          </div>
+        </Link>
+      </div>
 
       {/* Galeria */}
       <div className="split-featured-container">
-        <Link to="/historia" className="split-left">
+        <Link to="/galeria" className="split-left">
           <img
             src="/home/geremia-interna2.webp"
             alt="Galeria"
@@ -80,7 +98,7 @@ function Home() {
           />
         </Link>
 
-        <Link to="/historia" className="split-right">
+        <Link to="/galeria" className="split-right">
           <div className="split-content">
             <h3 className="split-title">
               {t("galeryTitle") || "Nossa História"}

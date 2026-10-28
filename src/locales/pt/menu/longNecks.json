@@ -22,5 +22,9 @@
   "heineken_zero_alcool": {
     "titulo": "Heineken 330 ml – Zero álcool",
     "descricao": ""
+  },
+  "heineken_ultimate": {
+    "titulo": "Heineken Ultimate",
+    "descricao": "Sem glúten."
   }
 }

@@ -3,11 +3,11 @@
     "titulo": "Laranja",
     "descricao": ""
   },
-  "limao": {
+  "limao1": {
     "titulo": "Limão",
     "descricao": ""
   },
-  "abacaxi": {
+  "abacaxi1": {
     "titulo": "Abacaxi",
     "descricao": ""
   },
@@ -19,7 +19,7 @@
     "titulo": "Maracujá",
     "descricao": ""
   },
-  "morango": {
+  "morango1": {
     "titulo": "Morango",
     "descricao": ""
   },
@@ -33,6 +33,10 @@
   },
   "laranja_com_morango": {
     "titulo": "Laranja com morango",
+    "descricao": ""
+  },
+  "morango_com_maracuja": {
+    "titulo": "Morango com Maracuja",
     "descricao": ""
   },
   "morango_suico": {

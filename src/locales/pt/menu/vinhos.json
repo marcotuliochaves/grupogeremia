@@ -23,17 +23,9 @@
     "titulo": "D.V Catena",
     "descricao": "Malbec. Mendoza Argentina - 750 ml."
   },
-  "casa_perini_demi_sec": {
-    "titulo": "Casa Perini – Demi sec",
-    "descricao": "Espumante - Demi-Sec"
-  },
-  "casa_perini_moscatel": {
-    "titulo": "Casa Perini – Moscatel",
-    "descricao": "Espumante - Moscatel"
-  },
-  "casa_perini_brut_rose": {
-    "titulo": "Casa Perini – Brut Rosê",
-    "descricao": "Espumante Brut Rosê."
+  "casa_perini_espumante": {
+    "titulo": "Casa Perini – Espumante",
+    "descricao": "Espumante"
   },
   "vinho_verde_500_rose": {
     "titulo": "Vinho Verde 500 – Rose",

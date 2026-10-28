@@ -3,23 +3,23 @@
     "titulo": "Orange Juice",
     "descricao": ""
   },
-  "limao": {
+  "limao1": {
     "titulo": "Lemonade",
     "descricao": ""
   },
-  "abacaxi": {
+  "abacaxi1": {
     "titulo": "Pinapple juice",
     "descricao": ""
   },
   "acerola": {
     "titulo": "Acerola",
-    "descricao": ""
+    "descricao": "Barbados Cherry"
   },
   "maracuja": {
     "titulo": "Passion fruit Juice",
     "descricao": ""
   },
-  "morango": {
+  "morango1": {
     "titulo": "Strawberry juice",
     "descricao": ""
   },
@@ -33,6 +33,10 @@
   },
   "laranja_com_morango": {
     "titulo": "Mix of orange and strawberry juice",
+    "descricao": ""
+  },
+  "morango_com_maracuja": {
+    "titulo": "Mix of strawberry andjuice",
     "descricao": ""
   },
   "morango_suico": {

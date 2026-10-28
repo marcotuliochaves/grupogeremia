@@ -269,7 +269,7 @@ export const pratosPrincipais = [
   },
   {
     id: "arroz_bacalhau_duplo",
-    preco: 125.00,
+    preco: 140.00,
     imagem: "/pratos/arroz-com-bacalhau.webp",
   },
   {

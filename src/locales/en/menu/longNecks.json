@@ -22,5 +22,9 @@
   "heineken_zero_alcool": {
     "titulo": "Heineken 0.0",
     "descricao": ""
+  },
+  "heineken_ultimate": {
+    "titulo": "Heineken Ultimate",
+    "descricao": "Gluten Free."
   }
 }

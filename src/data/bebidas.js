@@ -96,24 +96,24 @@ export const drinks = [
   {
     "id": "carmen_citrus",
     "preco": {
-      "cachaca": 23.00,
-      "vodka_nacional": 26.00,
-      "vodka_importada": 31.00
+      "cachaca": 26.00,
+      "vodka_nacional": 29.00,
+      "vodka_importada": 34.00
     },
     "imagem": "/drinks/carmem-citrus.webp"
   },
   {
     "id": "juju_tropical",
     "preco": {
-      "cachaca": 23.00,
-      "vodka_nacional": 26.00,
-      "vodka_importada": 31.00
+      "cachaca": 26.00,
+      "vodka_nacional": 29.00,
+      "vodka_importada": 34.00
     },
     "imagem": "/drinks/juju-tropical.webp"
   },
   {
     "id": "lili_twist",
-    "preco": 26.00,
+    "preco": 29.00,
     "imagem": "/drinks/lili-twist.webp"
   },
   {
@@ -338,12 +338,12 @@ export const sucos = [
     "imagem": "/null.webp"
   },
   {
-    "id": "limao",
+    "id": "limao1",
     "preco": 12.00,
     "imagem": "/null.webp"
   },
   {
-    "id": "abacaxi",
+    "id": "abacaxi1",
     "preco": 12.00,
     "imagem": "/null.webp"
   },
@@ -358,7 +358,7 @@ export const sucos = [
     "imagem": "/null.webp"
   },
   {
-    "id": "morango",
+    "id": "morango1",
     "preco": 12.00,
     "imagem": "/null.webp"
   },
@@ -565,7 +565,7 @@ export const destiladosDose = [
     "imagem": "/null.webp"
   },
   {
-    "id": "gin_nacional",
+    "id": "gin_nacional1",
     "preco": 14.00,
     "imagem": "/null.webp"
   },
@@ -608,7 +608,7 @@ export const destiladosGarrafa = [
     "imagem": "/destilados/orloff.webp"
   },
   {
-    "id": "gin_nacional",
+    "id": "gin_nacional1",
     "preco": 110.00,
     "imagem": "/destilados/gin-orloff.webp"
   },

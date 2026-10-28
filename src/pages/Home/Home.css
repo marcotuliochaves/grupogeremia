@@ -283,6 +283,15 @@ p {
 
 /* Responsividade */
 
+.split-content .split-title {
+  margin-bottom: 0.5rem;
+}
+
+.split-content .split-description {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
     .split-featured-container {
@@ -299,7 +308,7 @@ p {
     
     .split-description {
         font-size: 1rem;
-        margin: 1.5rem 0;
+        margin: 1.5rem 0; 
     }
 }
 
@@ -468,6 +477,7 @@ p {
     flex-direction: column;
   }
 }
+
 
 /* ============================================ */
 /* FORÇAR CORES LARANJA NO SWIPER - VERSÃO DEFINITIVA */

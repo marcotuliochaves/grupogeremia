@@ -1,4 +1,5 @@
-body{
+
+body {
     background: linear-gradient(135deg, #494d52 0%, #272a2c 100%);
 }
 
@@ -40,6 +41,10 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.happy-hour-logo {
+    max-width: 150px;
 }
 
 .happy-hour-description {
@@ -118,10 +123,10 @@ p {
     display: block;
     opacity: 1;
     visibility: visible;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 }
 
-/* Componente split com foto e descrição  */
+/* Componente split com foto e descrição */
 .split-featured-container {
     display: flex;
     width: 100%;
@@ -139,7 +144,7 @@ p {
     cursor: pointer;
     text-decoration: none;
     display: block;
-    min-height: 300px; /* Garante altura mínima */
+    min-height: 300px;
 }
 
 .split-image {
@@ -153,72 +158,18 @@ p {
     transform: scale(1.05);
 }
 
-/* Lado direito - Foto */
+/* Lado direito - Conteúdo */
 .split-right {
     flex: 1;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     text-decoration: none;
-    display: block;
-    min-height: 300px;
-}
-
-.split-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.split-right:hover .split-image {
-    transform: scale(1.05);
-}
-
-/* Overlay na imagem */
-.image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.image-overlay span {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 12px 28px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 40px;
-    letter-spacing: 1px;
-    transform: translateY(20px);
-    transition: transform 0.3s ease;
-}
-
-.split-left:hover .image-overlay {
-    opacity: 1;
-}
-
-.split-left:hover .image-overlay span {
-    transform: translateY(0);
-}
-
-/* Lado direito - Descrição */
-.split-right {
-    flex: 1;
+    min-height: 300px;
     background: #494d52;
     padding: 3rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
     transition: all 0.3s ease;
 }
 
@@ -234,7 +185,7 @@ p {
     font-size: 2rem;
     font-weight: bold;
     color: #FFA500;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
@@ -260,7 +211,7 @@ p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #f0e6d8;
-    margin: 2rem 0;
+    margin: 0.75rem 0;
 }
 
 .split-link {
@@ -280,109 +231,110 @@ p {
     transform: translateX(5px);
 }
 
-
-/* Responsividade */
-
-.split-content .split-title {
-  margin-bottom: 0.5rem;
-}
-
-.split-content .split-description {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-}
-
-/* Tablet (768px - 1024px) */
+/* Tablet (até 1024px) */
 @media (max-width: 1024px) {
     .split-featured-container {
         min-height: 400px;
     }
-    
+
     .split-right {
         padding: 2rem;
     }
-    
+
     .split-title {
         font-size: 1.8rem;
     }
-    
+
     .split-description {
         font-size: 1rem;
-        margin: 1.5rem 0; 
+        margin: 0.75rem 0;
     }
 }
 
 /* Mobile (até 768px) */
 @media (max-width: 768px) {
-    /* Ajustes gerais */
+    /* Carrossel */
     .carrossel {
         height: 250px;
     }
-    
+
     .slide-item {
         height: 350px;
     }
-    
+
     /* Happy Hour */
     .happy-hour-container {
         padding: 2rem 1rem;
         margin: 1rem 0;
     }
-    
+
     .happy-hour-title {
         font-size: 1.8rem;
     }
-    
+
     .happy-hour-description {
         font-size: 1rem;
     }
-    
+
     .history-button {
         padding: 10px 24px;
         font-size: 0.9rem;
     }
-    
+
     /* Menu banner */
     .menu-banner {
         height: 250px;
     }
-    
+
     .menu-banner h2 {
         font-size: 1.5rem;
     }
-    
-    
-    /* Split container - CORREÇÃO PRINCIPAL */
+
+    /* Cardápio e Galeria */
     .split-featured-container {
-        flex-direction: column; /* Empilha os elementos */
-        min-height: auto; /* Altura automática */
-        margin: 1.8rem 0;
+        flex-direction: column;
+        height: auto;
+        min-height: auto;
+        margin: 1.2rem 0;
     }
-    
+
     .split-left {
-        min-height: 250px; /* Altura menor para mobile */
+        flex: none;
+        min-height: 250px;
         width: 100%;
     }
-    
+
     .split-image {
+        display: block;
+        width: 100%;
+        height: 250px;
         min-height: 250px;
         object-fit: cover;
     }
-    
+
     .split-right {
-        padding: 1.8rem;
+        flex: none;
+        min-height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.8rem 1.2rem 1rem;
+    }
+
+    .split-content {
         width: 100%;
     }
-    
+
     .split-title {
         font-size: 1.5rem;
+        margin-bottom: 0.3rem;
     }
-    
+
     .split-description {
         font-size: 0.95rem;
-        margin: 1.2rem 0;
+        line-height: 1.5;
+        margin: 0.5rem 0;
     }
-    
+
     .split-link {
         font-size: 0.85rem;
     }
@@ -393,49 +345,53 @@ p {
     .carrossel {
         height: 250px;
     }
-    
+
     .slide-item {
         height: 250px;
     }
-    
+
     .happy-hour-title {
         font-size: 1.4rem;
     }
-    
+
     .happy-hour-description p {
         font-size: 0.9rem;
         margin-bottom: 10px;
     }
-    
+
     .menu-banner {
         height: 200px;
     }
-    
+
     .menu-banner h2 {
         font-size: 1.2rem;
     }
-    
+
+    /* Cardápio e Galeria em telas pequenas */
     .split-left {
         min-height: 200px;
     }
-    
+
     .split-image {
+        height: 200px;
         min-height: 200px;
     }
-    
+
     .split-right {
-        padding: 1.2rem;
+        padding: 0.5rem 1rem 0.8rem;
     }
-    
+
     .split-title {
-        font-size: 1.0rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
     }
-    
+
     .split-description {
         font-size: 0.85rem;
-        margin: 1rem 0;
+        line-height: 1.45;
+        margin: 0.4rem 0;
     }
-    
+
     .split-link {
         font-size: 0.75rem;
     }
@@ -446,77 +402,70 @@ p {
     .split-featured-container {
         min-height: 550px;
     }
-    
+
     .split-title {
         font-size: 2.5rem;
     }
-    
+
     .split-description {
         font-size: 1.2rem;
     }
 }
 
-/* Ajuste sobreposição em telas médias/pequenas */
-
+/* Ajuste do Happy Hour em telas médias */
 @media (min-width: 481px) and (max-width: 768px) {
     .happy-hour-container {
-        margin-top: 120px; 
+        margin-top: 120px;
     }
 }
 
 /* Cardápio: imagem à direita somente no computador */
 @media (min-width: 769px) {
-  .menu-featured {
-    flex-direction: row-reverse;
-  }
+    .menu-featured {
+        flex-direction: row-reverse;
+    }
 }
 
 /* Celular e tablet: imagem primeiro e texto depois */
 @media (max-width: 768px) {
-  .menu-featured {
-    flex-direction: column;
-  }
+    .menu-featured {
+        flex-direction: column;
+    }
 }
 
-
 /* ============================================ */
-/* FORÇAR CORES LARANJA NO SWIPER - VERSÃO DEFINITIVA */
+/* CORES DO SWIPER */
 /* ============================================ */
 
-/* Botões de navegação (setas) */
+/* Botões de navegação */
 .swiper-button-prev,
 .swiper-button-next {
-  color: #FFA500 !important;
+    color: #FFA500 !important;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  color: #FFA500 !important;
+    color: #FFA500 !important;
 }
 
-/* Paginação (bolinhas) */
+/* Paginação */
 .swiper-pagination-bullet {
-  background-color: #FFA500 !important;
-  opacity: 0.4 !important;
+    background-color: #FFA500 !important;
+    opacity: 0.4 !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #FFA500 !important;
-  opacity: 1 !important;
-}
-
-/* Para o paginação com fundo escuro */
-.swiper-pagination-bullet {
-  background: #FFA500 !important;
+    background-color: #FFA500 !important;
+    opacity: 1 !important;
 }
 
 /* Scrollbar */
 .swiper-scrollbar-drag {
-  background: #FFA500 !important;
+    background: #FFA500 !important;
 }
 
-/* Preloader (carregamento) */
+/* Preloader */
 .swiper-lazy-preloader {
-  border-color: #FFA500 !important;
-  border-top-color: transparent !important;
+    border-color: #FFA500 !important;
+    border-top-color: transparent !important;
 }

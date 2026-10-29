@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
         className="whatsapp-button-link"
       >
         <img
-          src="/whatsapp-button.webp"
+          src="/mascote-gere-wpp.png"
           alt="Fale conosco no WhatsApp"
           width={64}
           height={64}

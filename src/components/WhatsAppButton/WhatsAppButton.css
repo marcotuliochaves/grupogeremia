@@ -1,7 +1,7 @@
 .whatsapp-button-container {
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
+  right: 0rem;
   z-index: 50;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .whatsapp-button-img {
-  width: 64px;
+  width: 100px;
   height: 64px;
   transition: transform 0.3s ease;
 }

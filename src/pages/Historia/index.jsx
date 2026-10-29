@@ -42,7 +42,7 @@ function Historia() {
         <div className="historia-logo-container">
           <div className="historia-logo-wrapper">
             <img
-              src="/home/happy-hour.webp"
+              src="/home/gere-mascote.png"
               alt={t("logoAlt")}
               className="historia-logo-image"
             />
@@ -52,7 +52,8 @@ function Historia() {
         {/* Conteúdo principal */}
         <section className="historia-content">
           <h1 className="historia-title">{t("titulo")}</h1>
-          {[1, 2, 3, 4, 5].map((_, i) => (
+          <h2 className="historia-subtitle">{t("subtitulo")}</h2>
+          {[1, 2, 3, 4, 5, 6, 7].map((_, i) => (
             <p key={i} className="historia-paragraph">
               {t(`paragrafo${i + 1}`)}
             </p>

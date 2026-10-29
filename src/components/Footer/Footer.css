@@ -480,9 +480,9 @@
     width: 48px;
     height: 48px;
     max-width: none;
-    padding: 0;
+    padding: 3px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     opacity: 1;
     filter: none;
   }

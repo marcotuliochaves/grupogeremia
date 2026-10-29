@@ -9,8 +9,8 @@ function Home() {
 
   const data = [
     { id: "1", image: "/home/chopp-home.webp" },
-    { id: "2", image: "/home/coxinha-crocante.webp" },
-    { id: "3", image: "/home/feijoada.webp" },
+    { id: "2", image: "/home/gere-coxinha.webp" },
+    { id: "3", image: "/home/gere-feijuca.webp" },
   ];
 
   return (
@@ -46,7 +46,7 @@ function Home() {
       <div className="happy-hour-container">
         <div className="happy-hour-content">
           <img
-            src="/home/happy-hour.webp"
+            src="/home/gere-mascote.png"
             alt="logo-happy-hour"
             className="happy-hour-logo"
           />
@@ -55,6 +55,7 @@ function Home() {
             <p>{t("description1")}</p>
             <p>{t("description2")}</p>
             <p>{t("description3")}</p>
+            <p>{t("description4")}</p>
           </div>
           <Link to="/historia">
             <button className="history-button">{t("button")}</button>
@@ -66,7 +67,7 @@ function Home() {
       <div className="split-featured-container menu-featured">
         <Link to="/cardapio" className="split-left">
           <img
-            src="/home/cardapio.webp"
+            src="/home/coxinha-home.webp"
             alt="Cardápio do Geremia Bar"
             className="split-image"
           />
@@ -92,7 +93,7 @@ function Home() {
       <div className="split-featured-container">
         <Link to="/galeria" className="split-left">
           <img
-            src="/home/geremia-interna2.webp"
+            src="/home/gere-fachada.webp"
             alt="Galeria"
             className="split-image"
           />

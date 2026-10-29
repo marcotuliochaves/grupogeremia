@@ -51,19 +51,17 @@
 /* Logo central */
 .historia-logo-container {
   margin-top: 4rem;
-  padding: 1.25rem 1.5rem;
+  padding: 2.5rem 1.5rem;
   text-align: center;
   position: relative;
-  background-color: white;
 }
 
 .historia-logo-wrapper {
   position: absolute;
   top: -1.25rem;
-  left: 50%;
   transform: translateX(-50%);
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .historia-logo-image {
@@ -84,6 +82,14 @@
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.historia-subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   color: #1f2937;
 }
 

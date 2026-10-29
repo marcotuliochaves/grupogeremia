@@ -12,22 +12,22 @@ export const pratosPorcoes = [
   {
     id: "coxinha_costela",
     preco: 99.00,
-    imagem: "/porcoes/coxinha-de-costela.webp",
+    imagem: "/porcoes/coxinhas.webp",
   },
   {
     id: "coxinha_mista",
     preco: 92.00,
-    imagem: "/porcoes/coxinha-mista.webp",
+    imagem: "/porcoes/outra-coxinha.webp",
   },
   {
     id: "coxinha_pernil",
     preco: 85.00,
-    imagem: "/porcoes/coxinha-pernil.webp",
+    imagem: "/porcoes/coxinha.webp",
   },
   {
     id: "coxinha_frango",
     preco: 75.00,
-    imagem: "/porcoes/coxinha-de-frango.webp",
+    imagem: "/porcoes/coxinha-mista.webp",
   },
   {
     id: "pipoca_coalho",
@@ -67,7 +67,7 @@ export const pratosPorcoes = [
   {
     id: "file_canastra_porcao",
     preco: 120.00,
-    imagem: "/porcoes/file-canastra.webp",
+    imagem: "/porcoes/canastra.webp",
   },
   {
     id: "file_cerveja_preta",
@@ -167,7 +167,7 @@ export const pratosPorcoes = [
   {
     id: "ceviche_tilapia_inteira",
     preco: 80.00,
-    imagem: "/porcoes/ceviche-tilapia.webp",
+    imagem: "/porcoes/ceviche.webp",
   },
   {
     id: "ceviche_tilapia_meia",

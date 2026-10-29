@@ -189,7 +189,7 @@ function Footer() {
                 aria-label="Conheça o Geremia Bar"
               >
                 <img
-                  src="/geremia-bar.webp"
+                  src="/gere-bar.png"
                   alt="Geremia Bar"
                   className="beer-logo"
                 />
@@ -203,7 +203,7 @@ function Footer() {
                 aria-label="Conheça o Geremia Fest"
               >
                 <img
-                  src="/geremia-fest.webp"
+                  src="/gere-fest.png"
                   alt="Geremia Fest"
                   className="beer-logo"
                 />
@@ -217,7 +217,7 @@ function Footer() {
                 aria-label="Conheça o Geremia Run Fest"
               >
                 <img
-                  src="/geremia-runfest.webp"
+                  src="/gere-run.png"
                   alt="Geremia Run Fest"
                   className="beer-logo"
                 />
@@ -231,7 +231,7 @@ function Footer() {
                 aria-label="Conheça o Geremia Sunset Run"
               >
                 <img
-                  src="/geremia-sunsetrun.webp"
+                  src="/gere-sunset.png"
                   alt="Geremia Sunset Run"
                   className="beer-logo"
                 />

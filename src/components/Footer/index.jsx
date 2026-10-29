@@ -75,6 +75,25 @@ function Footer() {
                 <path d="M12 15c-1.5 0-2.8-.8-3.5-2h7c-.7 1.2-2 2-3.5 2z" />
               </svg>
             </a>
+            <a
+              href="https://linktr.ee/grupogeremia?utm_source=linktree_profile_share&ltsid=bd6fc142-ac4b-45cc-9f6e-0f10c01d29d5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+              aria-label="Linktree"
+              title="Linktree"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path d="M12 2 5.5 8.5h4.2L4 14.2h5.2L12 11l2.8 3.2H20l-5.7-5.7h4.2L12 2Z" />
+                <path d="M10.5 14.5h3V22h-3z" />
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -236,6 +255,16 @@ function Footer() {
                   className="beer-logo"
                 />
                 <span>Geremia Sunset Run</span>
+              </a>
+
+              <a
+                href="COLE_AQUI_O_LINK_DO_LINKTREE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Acesse o Linktree do Grupo Geremia"
+              >
+                <img src="/grupo-gere.png" alt="Linktree" className="beer-logo" />
+                <span>Linktree</span>
               </a>
             </div>
           </div>

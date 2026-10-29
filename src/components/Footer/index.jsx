@@ -258,7 +258,7 @@ function Footer() {
               </a>
 
               <a
-                href="COLE_AQUI_O_LINK_DO_LINKTREE"
+                href="https://linktr.ee/grupogeremia?utm_source=linktree_profile_share&ltsid=bd6fc142-ac4b-45cc-9f6e-0f10c01d29d5"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Acesse o Linktree do Grupo Geremia"

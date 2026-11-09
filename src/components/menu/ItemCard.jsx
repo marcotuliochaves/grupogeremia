@@ -1,3 +1,4 @@
+
 import "./style.css";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
@@ -18,12 +19,10 @@ const ItemCard = ({ item }) => {
   };
 
   const formatPrice = (preco) => {
-    // preço simples
     if (typeof preco === "number") {
       return <span>{formatCurrency(preco)}</span>;
     }
 
-    // múltiplas opções → mostra "a partir de"
     if (typeof preco === "object" && preco !== null) {
       const valores = Object.values(preco);
       const menor = Math.min(...valores);
@@ -41,14 +40,17 @@ const ItemCard = ({ item }) => {
 
   return (
     <>
-      {/* CARD CLICÁVEL */}
       <article
         className="item-card"
         onClick={() => setOpen(true)}
         style={{ cursor: "pointer" }}
       >
         <div className="item-image">
-          <img src={item.imagem} alt={t(`${item.id}.titulo`)} />
+          <img
+            src={item.imagem}
+            alt={t(`${item.id}.titulo`)}
+            decoding="async"
+          />
         </div>
 
         <div className="item-content">
@@ -63,7 +65,6 @@ const ItemCard = ({ item }) => {
         </div>
       </article>
 
-      {/* MODAL */}
       {open && (
         <ItemModal
           item={item}

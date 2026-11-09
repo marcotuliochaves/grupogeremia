@@ -1,3 +1,4 @@
+
 import ItemCard from "./ItemCard";
 import "./style.css";
 import { useTranslation } from "react-i18next";
@@ -7,11 +8,19 @@ const CategorySection = ({ titulo, itens }) => {
 
   return (
     <section>
-      <h2>{t(titulo, { ns: "categorias", defaultValue: titulo })}</h2>
+      <h2>
+        {t(titulo, {
+          ns: "categorias",
+          defaultValue: titulo,
+        })}
+      </h2>
 
       <div className="grid">
-        {itens?.map((item, i) => (
-          <ItemCard key={i} item={item} />
+        {itens?.map((item) => (
+          <ItemCard
+            key={item.id}
+            item={item}
+          />
         ))}
       </div>
     </section>

@@ -29,7 +29,7 @@ function Contato() {
       >
         <div className="contato-whatsapp-icon">
           <img
-            src="/whatsapp-button.webp"
+            src="/mascote-gere-wpp.png"
             alt={t("botaoAlt")}
             className="contato-whatsapp-image"
           />

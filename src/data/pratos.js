@@ -344,11 +344,6 @@ export const paraAcompanhar = [
 
 export const saladinha = [
   {
-    id: "burrata_com_tomate_cereja",
-    preco: 80.00,
-    imagem: "/saladinha/burrata.webp"
-  },
-  {
     "id": "saladinha_de_jilo",
     "preco": {
       "inteira": 35.00,

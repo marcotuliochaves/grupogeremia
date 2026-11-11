@@ -15,6 +15,11 @@ export const pratosPorcoes = [
     imagem: "/porcoes/coxinhas.webp",
   },
   {
+    id: "coxinha_costela_meia",
+    preco: 54.00,
+    imagem: "/porcoes/coxinhas.webp",
+  },
+  {
     id: "coxinha_mista",
     preco: 92.00,
     imagem: "/porcoes/outra-coxinha.webp",
@@ -25,8 +30,18 @@ export const pratosPorcoes = [
     imagem: "/porcoes/coxinha.webp",
   },
   {
+    id: "coxinha_pernil_meia",
+    preco: 45.00,
+    imagem: "/porcoes/coxinha.webp",
+  },
+  {
     id: "coxinha_frango",
     preco: 75.00,
+    imagem: "/porcoes/coxinha-mista.webp",
+  },
+  {
+    id: "coxinha_frango_meia",
+    preco: 42.00,
     imagem: "/porcoes/coxinha-mista.webp",
   },
   {

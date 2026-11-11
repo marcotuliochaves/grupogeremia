@@ -8,20 +8,32 @@
     "descricao": "Pastel tradicional recheado com pernil (6 unidades)."
   },
   "coxinha_costela": {
-    "titulo": "Coxinha de costela Gourmet",
+    "titulo": "Coxinha de costela Gourmet - Inteira",
     "descricao": "Muito crocante. Contém 10 unidades."
+  },
+  "coxinha_costela_meia": {
+    "titulo": "Coxinha de costela Gourmet - Meia",
+    "descricao": "Muito crocante. Contém 5 unidades."
   },
   "coxinha_mista": {
     "titulo": "Coxinha mista Gourmet",
     "descricao": "Muito crocante. Contém 5 unidades de frango e 5 de costela."
   },
   "coxinha_pernil": {
-    "titulo": "Coxinha de pernil",
+    "titulo": "Coxinha de pernil - Inteira",
     "descricao": "10 unidades de coxinha de pernil gourmet. Muito crocante!"
   },
+  "coxinha_pernil_meia": {
+    "titulo": "Coxinha de pernil - Meia",
+    "descricao": "5 unidades de coxinha de pernil gourmet. Muito crocante!"
+  },
   "coxinha_frango": {
-    "titulo": "Coxinha de frango",
+    "titulo": "Coxinha de frango - Inteira",
     "descricao": "10 unidades de coxinha de frango gourmet. Muito crocante!"
+  },
+  "coxinha_frango_meia": {
+    "titulo": "Coxinha de frango - Meia",
+    "descricao": "5 unidades de coxinha de frango gourmet. Muito crocante!"
   },
   "pipoca_coalho": {
     "titulo": "Pipoca de queijo coalho",

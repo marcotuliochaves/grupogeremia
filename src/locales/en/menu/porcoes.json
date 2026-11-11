@@ -8,20 +8,32 @@
     "descricao": "Traditional pastry filled with pork (6 units)."
   },
   "coxinha_costela": {
-    "titulo": "Gourmet rib coxinha",
+    "titulo": "Gourmet rib coxinha – Full",
     "descricao": "Very crispy. 10 units."
+  },
+  "coxinha_costela_meia": {
+    "titulo": "Gourmet rib coxinha – Half",
+    "descricao": "Very crispy. 5 units."
   },
   "coxinha_mista": {
     "titulo": "Mixed gourmet coxinha",
     "descricao": "5 chicken and 5 rib units."
   },
   "coxinha_pernil": {
-    "titulo": "Pork coxinha",
+    "titulo": "Pork coxinha – Full",
     "descricao": "10 crispy units."
   },
+  "coxinha_pernil_meia": {
+    "titulo": "Pork coxinha – Half",
+    "descricao": "5 crispy units."
+  },
   "coxinha_frango": {
-    "titulo": "Chicken coxinha",
+    "titulo": "Chicken coxinha – Full",
     "descricao": "10 crispy units."
+  },
+  "coxinha_frango_meia": {
+    "titulo": "Chicken coxinha – Half",
+    "descricao": "5 crispy units."
   },
   "pipoca_coalho": {
     "titulo": "Fried tapioca cubes",

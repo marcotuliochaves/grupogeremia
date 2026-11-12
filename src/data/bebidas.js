@@ -671,7 +671,7 @@ export const whiskyGarrafa = [
   {
     "id": "red_label",
     "preco": 230.00,
-    "imagem": "/destilados/jack-daniels.webp"
+    "imagem": "/destilados/red-label.webp"
   }
 ];
 

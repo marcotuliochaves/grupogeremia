@@ -14,12 +14,12 @@ function Historia() {
     "/history/geremia-entrada2.webp",
     "/history/fraldinha.webp",
     "/history/drinks.webp",
-    "/history/chopps.webp",
+    "/history/cachaca.webp",
     "/history/geremia-entrada3.webp",
     "/history/geremia-frente.webp",
     "/history/geremia-entrada4.webp",
     "/history/chopp1.webp",
-    "/history/geremia-interna2.webp",
+    "/history/geremia-entrada5.webp",
   ];
 
   return (

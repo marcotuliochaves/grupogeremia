@@ -20,9 +20,9 @@ export const chopps = [
     imagem: "/chopps/chopp-ferrugem.webp"
   },
   {
-    id: "chopp_amstel",
-    preco: 10.50,
-    imagem: "/chopps/chopp-amstel.webp"
+    id: "chopp_bluemoon",
+    preco: 20.90,
+    imagem: "/chopps/chopp-bluemoon.webp"
   }
 ];
 

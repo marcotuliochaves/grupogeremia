@@ -7,8 +7,13 @@
     "titulo": "Growler de chopp Antarctica",
     "descricao": "Chopp fresco, aroma neutro. Para quem prefere chopp com teor de amargor menos acentuado. 1 Litro."
   },
-  "growler_de_chopp_amstel": {
-    "titulo": "Growler de chopp Amstel",
-    "descricao": ""
+  "growler_de_chopp_black": {
+    "titulo": "Growler de chopp Black",
+    "descricao": "1 litro de Chopp Black"
+  },
+  "growler_de_chopp_bluemoon": {
+    "titulo": "Blue Moon",
+    "descricao": "1 litro de Chopp Blue Moon"
   }
+
 }

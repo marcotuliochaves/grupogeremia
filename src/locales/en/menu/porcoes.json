@@ -9,31 +9,43 @@
   },
   "coxinha_costela": {
     "titulo": "Gourmet rib coxinha – Full",
-    "descricao": "Very crispy. 10 units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_costela_meia": {
     "titulo": "Gourmet rib coxinha – Half",
-    "descricao": "Very crispy. 5 units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_mista": {
-    "titulo": "Mixed gourmet coxinha",
-    "descricao": "5 chicken and 5 rib units."
+    "titulo": "Mixed Ribs Coxinha",
+    "descricao": "To blend the flavors, consult your waiter."
+  },
+  "coxinha_mista_bacalhau": {
+    "titulo": "Mixed Cod coxinha",
+    "descricao": "To blend the flavors, consult your waiter."
+  },
+  "coxinha_bacalhau": {
+    "titulo": "Gourmet cod coxinha - Full",
+    "descricao": "To blend the flavors, consult your waiter."
+  },
+  "coxinha_bacalhau_meia": {
+    "titulo": "Gourmet cod coxinha - Half",
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_pernil": {
     "titulo": "Pork coxinha – Full",
-    "descricao": "10 crispy units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_pernil_meia": {
     "titulo": "Pork coxinha – Half",
-    "descricao": "5 crispy units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_frango": {
     "titulo": "Chicken coxinha – Full",
-    "descricao": "10 crispy units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "coxinha_frango_meia": {
     "titulo": "Chicken coxinha – Half",
-    "descricao": "5 crispy units."
+    "descricao": "To blend the flavors, consult your waiter."
   },
   "pipoca_coalho": {
     "titulo": "Fried tapioca cubes",
@@ -41,15 +53,15 @@
   },
   "torresmo_inteira": {
     "titulo": "Geremia crackling – Full",
-    "descricao": "Served with manioc."
+    "descricao": "Served with cassava in butter."
   },
   "torresmo_meia": {
     "titulo": "Geremia crackling – Half",
-    "descricao": "Served with manioc."
+    "descricao": "Served with cassava in butter."
   },
   "maia_fraldinha": {
     "titulo": "Breaded beef balls",
-    "descricao": "8 units with onion vinaigrette and okra chips."
+    "descricao": "Served with fried okra chips."
   },
   "mignon_parmegiana_palito": {
     "titulo": "Parmigiana beef sticks",
@@ -89,11 +101,11 @@
   },
   "figado_inteira": {
     "titulo": "Grilled liver – Full",
-    "descricao": "With jiló and onions."
+    "descricao": "Served with jiló (scarlet eggplant)"
   },
   "figado_meia": {
     "titulo": "Grilled liver – Half",
-    "descricao": "With jiló and onions."
+    "descricao": "Served with jiló (scarlet eggplant)"
   },
   "isca_tilapia_inteira": {
     "titulo": "Fish fingers – Full",
@@ -137,7 +149,7 @@
   },
   "moelinha": {
     "titulo": "Chicken gizzards",
-    "descricao": "In tomato sauce."
+    "descricao": "Smothered in our house-made tomato sauce."
   },
   "frango_passarinho": {
     "titulo": "Fried chicken",

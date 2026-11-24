@@ -9,31 +9,43 @@
   },
   "coxinha_costela": {
     "titulo": "Coxinha de costela Gourmet - Inteira",
-    "descricao": "Muito crocante. Contém 10 unidades."
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_costela_meia": {
     "titulo": "Coxinha de costela Gourmet - Meia",
-    "descricao": "Muito crocante. Contém 5 unidades."
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_mista": {
-    "titulo": "Coxinha mista Gourmet",
-    "descricao": "Muito crocante. Contém 5 unidades de frango e 5 de costela."
+    "titulo": "Coxinha Mista com Costela",
+    "descricao": "Para mesclar os sabores, consulte o garçom."
+  },
+  "coxinha_mista_bacalhau": {
+    "titulo": "Coxinha Mista com Bacalhau",
+    "descricao": "Para mesclar os sabores, consulte o garçom."
+  },
+  "coxinha_bacalhau": {
+    "titulo": "Coxinha de Bacalhau - Inteira",
+    "descricao": "Para mesclar os sabores, consulte o garçom."
+  },
+  "coxinha_bacalhau_meia": {
+    "titulo": "Coxinha de Bacalhau - Meia",
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_pernil": {
     "titulo": "Coxinha de pernil - Inteira",
-    "descricao": "10 unidades de coxinha de pernil gourmet. Muito crocante!"
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_pernil_meia": {
     "titulo": "Coxinha de pernil - Meia",
-    "descricao": "5 unidades de coxinha de pernil gourmet. Muito crocante!"
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_frango": {
     "titulo": "Coxinha de frango - Inteira",
-    "descricao": "10 unidades de coxinha de frango gourmet. Muito crocante!"
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "coxinha_frango_meia": {
     "titulo": "Coxinha de frango - Meia",
-    "descricao": "5 unidades de coxinha de frango gourmet. Muito crocante!"
+    "descricao": "Para mesclar os sabores, consulte o garçom."
   },
   "pipoca_coalho": {
     "titulo": "Pipoca de queijo coalho",
@@ -41,15 +53,15 @@
   },
   "torresmo_inteira": {
     "titulo": "Torresminho Geremia – Inteira",
-    "descricao": "Acompanha mandioca temperada na manteiga."
+    "descricao": "Acompanha mandioca na manteiga."
   },
   "torresmo_meia": {
     "titulo": "Torresminho Geremia – Meia",
-    "descricao": "Acompanha mandioca temperada na manteiga."
+    "descricao": "Acompanha mandioca na manteiga."
   },
   "maia_fraldinha": {
     "titulo": "Maia de fraldinha",
-    "descricao": "8 unidades acompanhadas de vinagrete de cebola e chips de quiabo."
+    "descricao": "Acompanha chips de quiabo frito."
   },
   "mignon_parmegiana_palito": {
     "titulo": "Filé mignon à parmegiana a palito",
@@ -89,11 +101,11 @@
   },
   "figado_inteira": {
     "titulo": "Fígado acebolado com jiló – Inteira",
-    "descricao": "Fígado com jiló e cebola."
+    "descricao": "Acompanha jiló."
   },
   "figado_meia": {
     "titulo": "Fígado acebolado com jiló – Meia",
-    "descricao": "Fígado com jiló e cebola."
+    "descricao": "Acompanha jiló."
   },
   "isca_tilapia_inteira": {
     "titulo": "Isca de tilápia – Inteira",
@@ -137,7 +149,7 @@
   },
   "moelinha": {
     "titulo": "Moelinha do Gerê",
-    "descricao": "Ao molho de tomate."
+    "descricao": "Mergulhada em nosso molho de tomate da casa."
   },
   "frango_passarinho": {
     "titulo": "Frango a passarinho",

@@ -688,17 +688,22 @@ export const whiskyGarrafa = [
 export const growler = [
   {
     id: "growler_de_chopp_heineken",
-    preco: 28.00,
+    preco: 29.90,
     imagem: "/chopps/growler-heineken.webp",
   },
   {
     id: "growler_de_chopp_antarctica",
-    preco: 22.00,
+    preco: 25.90,
     imagem: "/null.webp",
   },
   {
-    id: "growler_de_chopp_amstel",
-    preco: 21.00,
+    id: "growler_de_chopp_black",
+    preco: 28.90,
+    imagem: "/null.webp",
+  },
+  {
+    id: "growler_de_chopp_bluemoon",
+    preco: 39.90,
     imagem: "/null.webp",
   },
 ];

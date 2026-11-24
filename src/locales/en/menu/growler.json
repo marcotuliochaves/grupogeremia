@@ -7,8 +7,12 @@
     "titulo": "Antarctica",
     "descricao": "1 liter"
   },
-  "growler_de_chopp_amstel": {
-    "titulo": "Amstel",
+  "growler_de_chopp_black": {
+    "titulo": "Black",
+    "descricao": "1 liter"
+  },
+  "growler_de_chopp_bluemoon": {
+    "titulo": "Blue Moon",
     "descricao": "1 liter"
   }
 }

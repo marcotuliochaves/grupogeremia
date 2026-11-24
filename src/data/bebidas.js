@@ -123,14 +123,14 @@ export const drinks = [
   {
     id: "fitzgeria",
     preco: {
-      gin_nacional: 29.00,
-      gin_importado: 34.00,
+      gin_nacional: 30.00,
+      gin_importado: 35.00,
     },
     imagem: "/drinks/fitzgeria.webp",
   },
   {
     id: "rabo_de_saia",
-    preco: 29.00,
+    preco: 30.00,
     imagem: "/drinks/rabo-de-saia.webp",
   },
   {
@@ -610,7 +610,7 @@ export const destiladosGarrafa = [
   },
   {
     id: "orloff",
-    preco: 90.00,
+    preco: 120.00,
     imagem: "/destilados/orloff.webp",
   },
   {
@@ -620,7 +620,7 @@ export const destiladosGarrafa = [
   },
   {
     id: "gin_beefeater",
-    preco: 210.00,
+    preco: 230.00,
     imagem: "/destilados/beefeater.webp",
   },
   {
@@ -680,7 +680,7 @@ export const whiskyGarrafa = [
   },
   {
     id: "red_label",
-    preco: 190.00,
+    preco: 230.00,
     imagem: "/destilados/red-label.webp",
   },
 ];
